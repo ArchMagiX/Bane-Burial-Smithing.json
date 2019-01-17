@@ -1,0 +1,4134 @@
+{
+  "Variables": [
+    {
+      "name": "+1",
+      "value": "+1",
+      "type": "STRING"
+    },
+    {
+      "name": "+1 sorting",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "+1 value",
+      "value": "1",
+      "type": "NUMBER"
+    },
+    {
+      "name": "+2",
+      "value": "+2",
+      "type": "STRING"
+    },
+    {
+      "name": "+2 sorting",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "+2 value",
+      "value": "2",
+      "type": "NUMBER"
+    },
+    {
+      "name": "+3",
+      "value": "+3",
+      "type": "STRING"
+    },
+    {
+      "name": "+3 sorting",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "+3 value",
+      "value": "3",
+      "type": "NUMBER"
+    },
+    {
+      "name": "+4",
+      "value": "+4",
+      "type": "STRING"
+    },
+    {
+      "name": "+4 sorting",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "+4 value",
+      "value": "4",
+      "type": "NUMBER"
+    },
+    {
+      "name": "37,103,1",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,103,11",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,103,13",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,103,5",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,103,9",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,130,3",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,149",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,154,9",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,156,9",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,158,9",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,160,9",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "37,161",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "Anvil",
+      "value": "Anvil",
+      "type": "GO"
+    },
+    {
+      "name": "Base",
+      "value": "Base",
+      "type": "STRING"
+    },
+    {
+      "name": "Base check",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "BEGIN",
+      "value": "You lack the mat",
+      "type": "STRING"
+    },
+    {
+      "name": "Body + 1",
+      "value": "Bane platebody + 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Body+2",
+      "value": "Bane platebody + 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Body+3",
+      "value": "Bane platebody + 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Body+4",
+      "value": "Bane platebody + 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Body ID",
+      "value": "45217",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Boots",
+      "value": "Bane armoured boots",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "boots+1",
+      "value": "Bane armoured boots + 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "boots+2",
+      "value": "Bane armoured boots + 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "boots+3",
+      "value": "Bane armoured boots + 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "boots+4",
+      "value": "Bane armoured boots + 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Boots id",
+      "value": "45269",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Burial",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Burial anvil",
+      "value": "Burial Anvil",
+      "type": "GO"
+    },
+    {
+      "name": "Burial forge",
+      "value": "Burial Forge",
+      "type": "GO"
+    },
+    {
+      "name": "Burial set id",
+      "value": "45439",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Container",
+      "value": "37",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Deposit",
+      "value": "Deposit",
+      "type": "ACTION"
+    },
+    {
+      "name": "Forge",
+      "value": "Forge",
+      "type": "GO"
+    },
+    {
+      "name": "Full heat",
+      "value": "Your unfinished",
+      "type": "STRING"
+    },
+    {
+      "name": "Fullhelm",
+      "value": "Bane full helm",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Full helm id",
+      "value": "45165",
+      "type": "NUMBER"
+    },
+    {
+      "name": "gauntlets+1",
+      "value": "Bane gauntlets + 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "gauntlets+2",
+      "value": "Bane gauntlets + 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "gauntlets+3",
+      "value": "Bane gauntlets + 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "gauntlets+4",
+      "value": "Bane gauntlets + 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Gloves",
+      "value": "Bane gauntlets",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Gloves ID",
+      "value": "45295",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Heat",
+      "value": "Heat",
+      "type": "ACTION"
+    },
+    {
+      "name": "Helm +1",
+      "value": "Bane full helm + 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Helm + 2",
+      "value": "Bane full helm + 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Helm +3",
+      "value": "Bane full helm + 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Helm +4",
+      "value": "Bane full helm + 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Item Selection",
+      "value": "8333",
+      "type": "VARBIT"
+    },
+    {
+      "name": "legs+1",
+      "value": "Bane platelegs + 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "legs+2",
+      "value": "Bane platelegs + 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "legs+3",
+      "value": "Bane platelegs + 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "legs+4",
+      "value": "Bane platelegs + 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Legs ID",
+      "value": "45191",
+      "type": "NUMBER"
+    },
+    {
+      "name": "losing heat",
+      "value": "Your item has cooled",
+      "type": "STRING"
+    },
+    {
+      "name": "Make boots",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Make gaunts",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Make helm",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Make legs",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Manifested",
+      "value": "Manifested",
+      "type": "NPC"
+    },
+    {
+      "name": "no heat",
+      "value": "Your item has run",
+      "type": "STRING"
+    },
+    {
+      "name": "ore",
+      "value": "ore",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Pl8bod",
+      "value": "Bane platebody",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Pl8legs",
+      "value": "Bane platelegs",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "plates",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Plus 1",
+      "value": "+ 1",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Plus 2",
+      "value": "+ 2",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Plus 3",
+      "value": "+ 3",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Plus 4",
+      "value": "+ 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Select",
+      "value": "Select Bane bur",
+      "type": "ACTION"
+    },
+    {
+      "name": "Select Bane bod",
+      "value": "Select Bane platebody",
+      "type": "ACTION"
+    },
+    {
+      "name": "Select Bane boots",
+      "value": "Select Bane arm",
+      "type": "ACTION"
+    },
+    {
+      "name": "Select Bane gaunts",
+      "value": "Select Bane gaunt",
+      "type": "ACTION"
+    },
+    {
+      "name": "Select Bane helm",
+      "value": "Select Bane full",
+      "type": "ACTION"
+    },
+    {
+      "name": "Select Bane legs",
+      "value": "Select Bane platelegs",
+      "type": "ACTION"
+    },
+    {
+      "name": "Siphon",
+      "value": "Siphon",
+      "type": "ACTION"
+    },
+    {
+      "name": "Smith",
+      "value": "Smith",
+      "type": "ACTION"
+    },
+    {
+      "name": "Space",
+      "value": " ",
+      "type": "STRING"
+    },
+    {
+      "name": "T1",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "Tier selection",
+      "value": "43239",
+      "type": "VARBIT"
+    },
+    {
+      "name": "Unfinished item",
+      "value": "Unfinished",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Zero",
+      "value": "0",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Forge id",
+      "value": "Coordinate(3046, 3345, 0)",
+      "type": "COORDINATE"
+    },
+    {
+      "name": "Bar selection varp",
+      "value": "8332",
+      "type": "VARBIT"
+    },
+    {
+      "name": "Bar selected id",
+      "value": "1498",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Bar needed",
+      "value": "Select Bane",
+      "type": "ACTION"
+    },
+    {
+      "name": "37,52,17",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
+      "name": "Out of bars?",
+      "value": "You lack the materials",
+      "type": "STRING"
+    },
+    {
+      "name": "prayer point min",
+      "value": "400",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Prayer pot",
+      "value": "Prayer potion",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Drink",
+      "value": "Drink",
+      "type": "ACTION"
+    }
+  ],
+  "NodeCollection": [
+    {
+      "name": "StartCondition",
+      "base": {
+        "id": "91887e60-ac74-4bcd-8a0f-503a25643f6b",
+        "position": {
+          "x": "0.0",
+          "y": "0.0"
+        },
+        "flowTasks": {
+          "success": "4103eb42-be0f-4d51-b10d-c907074a6251"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "GameMode": "RS3",
+        "IntervalLow": 1000.0,
+        "IntervalHigh": 1984.5693966735334
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "b97b151c-2cc8-4521-8ec1-679b67b3b992",
+        "position": {
+          "x": "2329.0",
+          "y": "296.0"
+        },
+        "flowTasks": {
+          "success": "d824bb01-8788-42fc-b562-93a944d4d10a",
+          "failure": "edf1bca4-2fd3-4c42-a91e-018095463e4a"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "losing heat",
+          "no heat"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "d824bb01-8788-42fc-b562-93a944d4d10a",
+        "position": {
+          "x": "2826.0",
+          "y": "82.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Forge"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "184030a4-5831-4c4a-b908-cb33f201ab3b",
+        "position": {
+          "x": "2000.0",
+          "y": "454.0"
+        },
+        "flowTasks": {
+          "success": "b97b151c-2cc8-4521-8ec1-679b67b3b992",
+          "failure": "5f9d4f30-0e0d-4506-a769-f64644711a65"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Unfinished item"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "edf1bca4-2fd3-4c42-a91e-018095463e4a",
+        "position": {
+          "x": "2403.0",
+          "y": "435.0"
+        },
+        "flowTasks": {
+          "success": "700cd1db-f5be-4004-a3dc-5e4b7bcf78e8",
+          "failure": "2ab99235-7112-42b3-b799-3c17e770f48d"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Full heat"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "700cd1db-f5be-4004-a3dc-5e4b7bcf78e8",
+        "position": {
+          "x": "3226.0",
+          "y": "257.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Smith"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Anvil"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Smith"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "PlayerCondition",
+      "base": {
+        "id": "2ab99235-7112-42b3-b799-3c17e770f48d",
+        "position": {
+          "x": "2786.0",
+          "y": "417.0"
+        },
+        "flowTasks": {
+          "failure": "700cd1db-f5be-4004-a3dc-5e4b7bcf78e8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "within": "",
+          "MinLvl": "",
+          "MaxLvl": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Condition": "Is animating (2s delay):"
+      }
+    },
+    {
+      "name": "NpcCondition",
+      "base": {
+        "id": "fb0e76d0-cc5c-4c4e-a0a8-46557a2feeb8",
+        "position": {
+          "x": "790.0",
+          "y": "352.0"
+        },
+        "flowTasks": {
+          "success": "b9f6b340-be6c-4461-a94c-ea5c957fbc29",
+          "failure": "fc72460e-21db-4f25-a726-2e3f8e471bc2"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "list4": [
+            "Siphon"
+          ],
+          "within": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Manifested"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Siphon"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "b9f6b340-be6c-4461-a94c-ea5c957fbc29",
+        "position": {
+          "x": "1178.0",
+          "y": "117.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "list4": [
+            "Siphon"
+          ],
+          "within": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Npc",
+        "ItemValues": [
+          "Manifested"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Siphon"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "dfb6e877-63cf-4cc5-b020-391dec92a9f9",
+        "position": {
+          "x": "1993.0",
+          "y": "663.0"
+        },
+        "flowTasks": {
+          "success": "c27b64bd-dfd5-45c3-a0f3-a6742e0848f1"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "T1"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "21263188-cba6-414f-8508-1a973fa22c8e",
+        "position": {
+          "x": "2002.0",
+          "y": "1768.0"
+        },
+        "flowTasks": {
+          "success": "d0c5a3f2-e11d-48fc-b4ee-1dff7cdf2d90",
+          "failure": "9f5954af-4fe1-43af-9aab-78dc7c6896cb"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Boots",
+          "Fullhelm",
+          "Gloves",
+          "Pl8bod",
+          "Pl8legs"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "d0c5a3f2-e11d-48fc-b4ee-1dff7cdf2d90",
+        "position": {
+          "x": "2408.0",
+          "y": "1502.0"
+        },
+        "flowTasks": {
+          "success": "5da5ceb5-0146-40ee-9c34-04d5e1ab559b",
+          "failure": "e4475be4-5b91-4085-9596-7a6101c78f22"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "+1 value",
+        "Varbits": [
+          "Tier selection"
+        ],
+        "Type": "Varbit",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "e4475be4-5b91-4085-9596-7a6101c78f22",
+        "position": {
+          "x": "2837.0",
+          "y": "1264.0"
+        },
+        "flowTasks": {
+          "success": "dd579a83-be0c-4331-84c5-7ea855468c79",
+          "failure": "b5114632-d0f9-4e8a-9faf-c782c8965d0a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [
+          "+1"
+        ],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "37,160,9",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "dd579a83-be0c-4331-84c5-7ea855468c79",
+        "position": {
+          "x": "3343.0",
+          "y": "1130.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Click",
+        "Values": [
+          "37,160,9"
+        ],
+        "ActionValues": [
+          "Select"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "5f9d4f30-0e0d-4506-a769-f64644711a65",
+        "position": {
+          "x": "2513.0",
+          "y": "575.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "T1",
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "6170d9ef-f8a8-44d1-8843-92d6ed3d1467",
+        "position": {
+          "x": "4060.0",
+          "y": "2942.0"
+        },
+        "flowTasks": {
+          "success": "f6d3be39-170c-4dfb-896a-8e786e0b1a63",
+          "failure": "13157e0c-51c5-40dd-9a3b-4b234d49180d"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Full helm id",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "b35c4854-3e0a-42d3-afc8-ddf9c1df7cca",
+        "position": {
+          "x": "5046.0",
+          "y": "2795.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,103,1"
+        ],
+        "ActionValues": [
+          "Select Bane helm"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "f6d3be39-170c-4dfb-896a-8e786e0b1a63",
+        "position": {
+          "x": "4401.0",
+          "y": "2638.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "13157e0c-51c5-40dd-9a3b-4b234d49180d",
+        "position": {
+          "x": "4603.0",
+          "y": "2934.0"
+        },
+        "flowTasks": {
+          "success": "b35c4854-3e0a-42d3-afc8-ddf9c1df7cca"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [
+            "CONTAINER",
+            "SPRITE",
+            "UNDOCUMENTED"
+          ],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": true,
+        "ActionValues": [
+          "Select Bane helm"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,103,1",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "b5114632-d0f9-4e8a-9faf-c782c8965d0a",
+        "position": {
+          "x": "3354.0",
+          "y": "1429.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Forge"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "9f5954af-4fe1-43af-9aab-78dc7c6896cb",
+        "position": {
+          "x": "1999.0",
+          "y": "1990.0"
+        },
+        "flowTasks": {
+          "success": "584ba912-bb71-437e-9117-7406332bb233",
+          "failure": "e28fb4b7-e12c-48ee-aa09-4b9ccf7c9625"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body + 1",
+          "boots+1",
+          "gauntlets+1",
+          "Helm +1",
+          "legs+1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "584ba912-bb71-437e-9117-7406332bb233",
+        "position": {
+          "x": "2409.0",
+          "y": "1885.0"
+        },
+        "flowTasks": {
+          "success": "9595c143-959d-4f9e-b7f9-f7e956a825bd",
+          "failure": "9b89ccf6-dd6c-4edd-8e17-ba1ecbb2d3bc"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "+2 value",
+        "Varbits": [
+          "Tier selection"
+        ],
+        "Type": "Varbit",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "9b89ccf6-dd6c-4edd-8e17-ba1ecbb2d3bc",
+        "position": {
+          "x": "2897.0",
+          "y": "1662.0"
+        },
+        "flowTasks": {
+          "success": "39305463-308f-4e9f-b889-01a8c3ea93d2"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [
+          "+2"
+        ],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "37,158,9",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "39305463-308f-4e9f-b889-01a8c3ea93d2",
+        "position": {
+          "x": "3315.0",
+          "y": "1762.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Click",
+        "Values": [
+          "37,158,9"
+        ],
+        "ActionValues": [],
+        "ItemRegex": false,
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "f639eedc-b444-4e03-96cf-342ad17a9d7f",
+        "position": {
+          "x": "2022.0",
+          "y": "1207.0"
+        },
+        "flowTasks": {
+          "success": "494f2de9-6c5c-49a7-9877-0a04967df5f8",
+          "failure": "9981e49e-2a10-4ef5-a8aa-d4d8f8e586af"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "",
+        "Cache container": false
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "9981e49e-2a10-4ef5-a8aa-d4d8f8e586af",
+        "position": {
+          "x": "2474.0",
+          "y": "1174.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Forge"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "e28fb4b7-e12c-48ee-aa09-4b9ccf7c9625",
+        "position": {
+          "x": "1977.0",
+          "y": "2216.0"
+        },
+        "flowTasks": {
+          "success": "2271490f-b188-4f25-945e-874a6b22ae46",
+          "failure": "00b7f3e4-7e46-469c-96f0-63013884a275"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+2",
+          "boots+2",
+          "gauntlets+2",
+          "Helm + 2",
+          "legs+2"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "faa46599-7d2e-4be5-90ed-88bb6b5e07d2",
+        "position": {
+          "x": "3751.0",
+          "y": "2819.0"
+        },
+        "flowTasks": {
+          "success": "6170d9ef-f8a8-44d1-8843-92d6ed3d1467"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Make helm"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "9595c143-959d-4f9e-b7f9-f7e956a825bd",
+        "position": {
+          "x": "2935.0",
+          "y": "2138.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "+2 sorting",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "2271490f-b188-4f25-945e-874a6b22ae46",
+        "position": {
+          "x": "2407.0",
+          "y": "2283.0"
+        },
+        "flowTasks": {
+          "success": "0a77b147-184b-4cd3-a4ac-3e18ddb8db71",
+          "failure": "60003e68-4a23-4cef-a86e-6be8a5454e69"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "+3 value",
+        "Varbits": [
+          "Tier selection"
+        ],
+        "Type": "Varbit",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "60003e68-4a23-4cef-a86e-6be8a5454e69",
+        "position": {
+          "x": "2802.0",
+          "y": "2433.0"
+        },
+        "flowTasks": {
+          "success": "6da47548-df77-45f7-bf02-34c1e4fe6fa3"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [
+          "+3"
+        ],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "37,156,9",
+        "Cache container": false
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "6da47548-df77-45f7-bf02-34c1e4fe6fa3",
+        "position": {
+          "x": "3249.0",
+          "y": "2473.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Click",
+        "Values": [
+          "37,156,9"
+        ],
+        "ActionValues": [],
+        "ItemRegex": false,
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "00b7f3e4-7e46-469c-96f0-63013884a275",
+        "position": {
+          "x": "1975.0",
+          "y": "2442.0"
+        },
+        "flowTasks": {
+          "success": "12b77b24-c770-4931-93bd-2f7593d48372",
+          "failure": "8e1aec9e-bebe-48a1-a217-3b806ac55ca9"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+3",
+          "boots+3",
+          "gauntlets+3",
+          "Helm +3",
+          "legs+3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "12b77b24-c770-4931-93bd-2f7593d48372",
+        "position": {
+          "x": "2406.0",
+          "y": "2668.0"
+        },
+        "flowTasks": {
+          "success": "3def271e-18bc-4130-afd8-77749e3e4e19",
+          "failure": "72b9f603-7658-457c-bce1-bf1228787f59"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "+4 value",
+        "Varbits": [
+          "Tier selection"
+        ],
+        "Type": "Varbit",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "6f127195-1929-41dc-a080-398b28283deb",
+        "position": {
+          "x": "3316.0",
+          "y": "2980.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Click",
+        "Values": [
+          "37,154,9"
+        ],
+        "ActionValues": [],
+        "ItemRegex": false,
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "72b9f603-7658-457c-bce1-bf1228787f59",
+        "position": {
+          "x": "2762.0",
+          "y": "2984.0"
+        },
+        "flowTasks": {
+          "success": "6f127195-1929-41dc-a080-398b28283deb"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [
+          "+4"
+        ],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "37,154,9",
+        "Cache container": false
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "8747e377-8e78-448a-a913-1d0b6af58709",
+        "position": {
+          "x": "3533.0",
+          "y": "3476.0"
+        },
+        "flowTasks": {
+          "success": "83b6edfd-a627-417c-b2a7-543c08784743"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "plates"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "83b6edfd-a627-417c-b2a7-543c08784743",
+        "position": {
+          "x": "3692.0",
+          "y": "3707.0"
+        },
+        "flowTasks": {
+          "success": "7edceff5-5615-426c-86fe-93d98ed4f406",
+          "failure": "09aee8d0-4ead-4e03-9b19-a8ba5a0ae88e"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Body ID",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "7edceff5-5615-426c-86fe-93d98ed4f406",
+        "position": {
+          "x": "4105.0",
+          "y": "3353.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "09aee8d0-4ead-4e03-9b19-a8ba5a0ae88e",
+        "position": {
+          "x": "4215.0",
+          "y": "3671.0"
+        },
+        "flowTasks": {
+          "success": "f10240d5-1b8b-4a13-9eb7-f256ac7c3ff5"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Select Bane bod"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,103,5",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "f10240d5-1b8b-4a13-9eb7-f256ac7c3ff5",
+        "position": {
+          "x": "4773.0",
+          "y": "3638.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,103,5"
+        ],
+        "ActionValues": [
+          "Select Bane bod"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "fe6400ed-0d41-429e-b8a1-8511bca3ea4a",
+        "position": {
+          "x": "1847.0",
+          "y": "3618.0"
+        },
+        "flowTasks": {
+          "success": "9e5130b1-1a3f-4b8e-ac38-514a6a4983e6"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Make legs"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "9e5130b1-1a3f-4b8e-ac38-514a6a4983e6",
+        "position": {
+          "x": "1859.0",
+          "y": "3840.0"
+        },
+        "flowTasks": {
+          "success": "57d81cbf-e823-43d1-85dd-0692ce58ff8f",
+          "failure": "25d85b43-8395-412c-9498-e628165e8f47"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Legs ID",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "57d81cbf-e823-43d1-85dd-0692ce58ff8f",
+        "position": {
+          "x": "2313.0",
+          "y": "3752.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "25d85b43-8395-412c-9498-e628165e8f47",
+        "position": {
+          "x": "2293.0",
+          "y": "4102.0"
+        },
+        "flowTasks": {
+          "success": "317c466a-54db-42a9-be9d-fccfcf90d707"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Select Bane legs"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,130,3",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "317c466a-54db-42a9-be9d-fccfcf90d707",
+        "position": {
+          "x": "2796.0",
+          "y": "4321.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,130,3"
+        ],
+        "ActionValues": [
+          "Select Bane legs"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "70e5e9cb-0868-4ff4-a786-73d5f5eff2f0",
+        "position": {
+          "x": "-49.0",
+          "y": "4157.0"
+        },
+        "flowTasks": {
+          "success": "3072d6a4-c779-4ad8-ab0b-e47a5e1039d5"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Make gaunts"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "3072d6a4-c779-4ad8-ab0b-e47a5e1039d5",
+        "position": {
+          "x": "501.0",
+          "y": "4351.0"
+        },
+        "flowTasks": {
+          "success": "c336167a-f056-4518-8851-b3ca9ebedd8e",
+          "failure": "d2321846-5cd7-40ef-9727-d4533ceff676"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Gloves ID",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "c336167a-f056-4518-8851-b3ca9ebedd8e",
+        "position": {
+          "x": "1044.0",
+          "y": "4105.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "d2321846-5cd7-40ef-9727-d4533ceff676",
+        "position": {
+          "x": "974.0",
+          "y": "4420.0"
+        },
+        "flowTasks": {
+          "success": "34e7a5d8-e7b8-43fb-875e-0f0b18cfffb4"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Select Bane gaunts"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,103,11",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "34e7a5d8-e7b8-43fb-875e-0f0b18cfffb4",
+        "position": {
+          "x": "1461.0",
+          "y": "4489.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,103,11"
+        ],
+        "ActionValues": [
+          "Select Bane gaunts"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "cc04c147-d877-4883-906d-0b8e0af23605",
+        "position": {
+          "x": "-36.0",
+          "y": "4551.0"
+        },
+        "flowTasks": {
+          "success": "0751782a-3b9f-4133-bbd9-67ebfe4ff666"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Make boots"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "0751782a-3b9f-4133-bbd9-67ebfe4ff666",
+        "position": {
+          "x": "481.0",
+          "y": "4768.0"
+        },
+        "flowTasks": {
+          "success": "fce4b460-1997-48da-a7be-a5a9421ecad0",
+          "failure": "9004883e-1c8e-43fd-ab7d-6e27a951a7f3"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Boots id",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "fce4b460-1997-48da-a7be-a5a9421ecad0",
+        "position": {
+          "x": "954.0",
+          "y": "4787.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "9004883e-1c8e-43fd-ab7d-6e27a951a7f3",
+        "position": {
+          "x": "932.0",
+          "y": "5126.0"
+        },
+        "flowTasks": {
+          "success": "10ad96dd-4f1e-4814-b63a-ca87ba7bc608"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Select Bane boots"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,103,9",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "10ad96dd-4f1e-4814-b63a-ca87ba7bc608",
+        "position": {
+          "x": "1441.0",
+          "y": "4944.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,103,9"
+        ],
+        "ActionValues": [
+          "Select Bane boots"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "5da5ceb5-0146-40ee-9c34-04d5e1ab559b",
+        "position": {
+          "x": "2941.0",
+          "y": "1987.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "+1 sorting",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "4da3e65c-456d-433e-8b42-f2476a912566",
+        "position": {
+          "x": "1054.0",
+          "y": "1826.0"
+        },
+        "flowTasks": {
+          "success": "0c2e29aa-33e8-4e77-85a8-22ca3d75e46a"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "+1 sorting"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "0c2e29aa-33e8-4e77-85a8-22ca3d75e46a",
+        "position": {
+          "x": "1037.0",
+          "y": "2156.0"
+        },
+        "flowTasks": {
+          "success": "342e62f5-57fc-40fc-b006-a23a3b68cc91",
+          "failure": "f0a6d6c3-6d0c-47af-b911-81ca4a3a2c3a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Boots"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "342e62f5-57fc-40fc-b006-a23a3b68cc91",
+        "position": {
+          "x": "1454.0",
+          "y": "2062.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make boots",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "f0a6d6c3-6d0c-47af-b911-81ca4a3a2c3a",
+        "position": {
+          "x": "1034.0",
+          "y": "2417.0"
+        },
+        "flowTasks": {
+          "success": "d89bc1f0-656e-4d8e-8f3d-44d17e809409",
+          "failure": "8630e185-c302-4406-bc33-e16fed3378c7"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Gloves"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "8630e185-c302-4406-bc33-e16fed3378c7",
+        "position": {
+          "x": "1017.0",
+          "y": "2649.0"
+        },
+        "flowTasks": {
+          "success": "78d94f05-381c-4aee-accf-db4c60365a75",
+          "failure": "00d7a08a-c1d3-4f64-8e60-40422d09deb8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Pl8bod"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "d89bc1f0-656e-4d8e-8f3d-44d17e809409",
+        "position": {
+          "x": "1427.0",
+          "y": "2321.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make gaunts",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "78d94f05-381c-4aee-accf-db4c60365a75",
+        "position": {
+          "x": "1417.0",
+          "y": "2631.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "plates",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "cd7a44be-96f0-4662-9eb6-b6355995d7fc",
+        "position": {
+          "x": "482.0",
+          "y": "1845.0"
+        },
+        "flowTasks": {
+          "success": "e2d58f4d-5dfe-4079-bf08-268007efdcae"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "+2 sorting"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "e2d58f4d-5dfe-4079-bf08-268007efdcae",
+        "position": {
+          "x": "498.0",
+          "y": "2113.0"
+        },
+        "flowTasks": {
+          "success": "342e62f5-57fc-40fc-b006-a23a3b68cc91",
+          "failure": "cdb531f1-f3be-4fc2-8d3b-666758339c60"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "boots+1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "cdb531f1-f3be-4fc2-8d3b-666758339c60",
+        "position": {
+          "x": "511.0",
+          "y": "2423.0"
+        },
+        "flowTasks": {
+          "success": "d89bc1f0-656e-4d8e-8f3d-44d17e809409",
+          "failure": "326b5429-000c-4952-bb8d-db8a074f4407"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "gauntlets+1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "326b5429-000c-4952-bb8d-db8a074f4407",
+        "position": {
+          "x": "479.0",
+          "y": "2669.0"
+        },
+        "flowTasks": {
+          "success": "78d94f05-381c-4aee-accf-db4c60365a75",
+          "failure": "8e3adce9-abac-4bb6-b12b-d529766051db"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body + 1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "8e3adce9-abac-4bb6-b12b-d529766051db",
+        "position": {
+          "x": "486.0",
+          "y": "2888.0"
+        },
+        "flowTasks": {
+          "success": "c658e4af-3b56-4db7-8007-9bea2e996f20",
+          "failure": "6ed0aa98-bdbc-44f9-9034-0c8d5ff3242b"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "legs+1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "00d7a08a-c1d3-4f64-8e60-40422d09deb8",
+        "position": {
+          "x": "1029.0",
+          "y": "2875.0"
+        },
+        "flowTasks": {
+          "success": "c658e4af-3b56-4db7-8007-9bea2e996f20",
+          "failure": "2e2e9ef3-e84f-4108-b66e-5bd7a1987e6e"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Pl8legs"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "c658e4af-3b56-4db7-8007-9bea2e996f20",
+        "position": {
+          "x": "1468.0",
+          "y": "2883.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make legs",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "4ab4f574-7cf8-4f5e-aa17-cbf45a05bd23",
+        "position": {
+          "x": "1530.0",
+          "y": "3110.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make helm",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "e93aba11-c31c-44f1-8007-051db881d2b9",
+        "position": {
+          "x": "-104.0",
+          "y": "1842.0"
+        },
+        "flowTasks": {
+          "success": "8b2cb8df-666a-4d2d-882e-1ea33fa04b90"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "+3 sorting"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "8b2cb8df-666a-4d2d-882e-1ea33fa04b90",
+        "position": {
+          "x": "-99.0",
+          "y": "2068.0"
+        },
+        "flowTasks": {
+          "success": "342e62f5-57fc-40fc-b006-a23a3b68cc91",
+          "failure": "d9992fbf-3187-4114-9dfb-e7c5a772500c"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "boots+2"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "d9992fbf-3187-4114-9dfb-e7c5a772500c",
+        "position": {
+          "x": "-84.0",
+          "y": "2333.0"
+        },
+        "flowTasks": {
+          "success": "d89bc1f0-656e-4d8e-8f3d-44d17e809409",
+          "failure": "1a17c480-7319-42fb-ac06-f31dbed3e554"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "gauntlets+2"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "1a17c480-7319-42fb-ac06-f31dbed3e554",
+        "position": {
+          "x": "-68.0",
+          "y": "2647.0"
+        },
+        "flowTasks": {
+          "success": "78d94f05-381c-4aee-accf-db4c60365a75",
+          "failure": "620757a6-912a-4c7b-a337-11a8db01cc92"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+2"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "620757a6-912a-4c7b-a337-11a8db01cc92",
+        "position": {
+          "x": "-70.0",
+          "y": "2874.0"
+        },
+        "flowTasks": {
+          "success": "c658e4af-3b56-4db7-8007-9bea2e996f20",
+          "failure": "e8eea3c8-956f-4b5e-96f9-977f0d210bf9"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "legs+2"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "0a77b147-184b-4cd3-a4ac-3e18ddb8db71",
+        "position": {
+          "x": "2939.0",
+          "y": "2297.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "+3 sorting",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "4103eb42-be0f-4d51-b10d-c907074a6251",
+        "position": {
+          "x": "273.0",
+          "y": "220.0"
+        },
+        "flowTasks": {
+          "success": "17d8845f-d699-4cc7-8196-40225115110e",
+          "failure": "fb0e76d0-cc5c-4c4e-a0a8-46557a2feeb8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "ore"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "17d8845f-d699-4cc7-8196-40225115110e",
+        "position": {
+          "x": "675.0",
+          "y": "10.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Deposit"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Forge"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Deposit"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "002fbaa7-1840-4350-8bb9-da2c92732f08",
+        "position": {
+          "x": "1540.0",
+          "y": "485.0"
+        },
+        "flowTasks": {
+          "success": "68d8d998-3589-4018-8163-c6dfc5c73382",
+          "failure": "184030a4-5831-4c4a-b908-cb33f201ab3b"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+4",
+          "boots+4",
+          "gauntlets+4",
+          "Helm +4",
+          "legs+4"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains all of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "68d8d998-3589-4018-8163-c6dfc5c73382",
+        "position": {
+          "x": "2380.0",
+          "y": "143.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Burial",
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "4148aaa5-514d-444a-8a6e-a67c5c6dd0fa",
+        "position": {
+          "x": "-1007.0",
+          "y": "182.0"
+        },
+        "flowTasks": {
+          "success": "09a1974e-8df8-4019-8396-59580f84f2c3"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Burial"
+      }
+    },
+    {
+      "name": "NpcCondition",
+      "base": {
+        "id": "09a1974e-8df8-4019-8396-59580f84f2c3",
+        "position": {
+          "x": "-906.0",
+          "y": "489.0"
+        },
+        "flowTasks": {
+          "success": "1a7d7e41-cf92-4aaf-b984-2e7b9cd93e50",
+          "failure": "09fed8bd-0663-4bfa-a728-8ff1fb58dfb8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "list4": [
+            "Siphon"
+          ],
+          "within": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Manifested"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Siphon"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "1a7d7e41-cf92-4aaf-b984-2e7b9cd93e50",
+        "position": {
+          "x": "-430.0",
+          "y": "254.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "list4": [
+            "Siphon"
+          ],
+          "within": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Npc",
+        "ItemValues": [
+          "Manifested"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Siphon"
+        ],
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "2bf56cf9-4140-4f86-8c9c-43231cb7310d",
+        "position": {
+          "x": "-154.0",
+          "y": "873.0"
+        },
+        "flowTasks": {
+          "success": "e43a0c79-7d93-4dea-bf4d-aaf54c28c4eb",
+          "failure": "cac75678-e6b6-4116-a09b-7a773fa069f8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Unfinished item"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "e43a0c79-7d93-4dea-bf4d-aaf54c28c4eb",
+        "position": {
+          "x": "231.0",
+          "y": "803.0"
+        },
+        "flowTasks": {
+          "success": "bc3cf6dd-aceb-4c9e-8e98-4bda60cb3a32",
+          "failure": "b383d305-ca68-4e50-9010-909821493d0d"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "losing heat",
+          "no heat"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "b383d305-ca68-4e50-9010-909821493d0d",
+        "position": {
+          "x": "691.0",
+          "y": "847.0"
+        },
+        "flowTasks": {
+          "success": "adb3da7c-9100-49b9-97b2-07560ebfa413",
+          "failure": "8cff2e0d-87a3-4924-a86c-c0d754ef8c43"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Full heat"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "bc3cf6dd-aceb-4c9e-8e98-4bda60cb3a32",
+        "position": {
+          "x": "1085.0",
+          "y": "649.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Burial forge"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "adb3da7c-9100-49b9-97b2-07560ebfa413",
+        "position": {
+          "x": "1635.0",
+          "y": "752.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Smith"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Burial anvil"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Smith"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "PlayerCondition",
+      "base": {
+        "id": "8cff2e0d-87a3-4924-a86c-c0d754ef8c43",
+        "position": {
+          "x": "1351.0",
+          "y": "1060.0"
+        },
+        "flowTasks": {
+          "failure": "adb3da7c-9100-49b9-97b2-07560ebfa413"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "within": "",
+          "MinLvl": "",
+          "MaxLvl": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Condition": "Is animating (2s delay):"
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "6463660b-021c-48da-8747-61cc7e1cfdf9",
+        "position": {
+          "x": "250.0",
+          "y": "1193.0"
+        },
+        "flowTasks": {
+          "success": "0da9f69b-a0c2-49dc-8e93-3305464388fb",
+          "failure": "c5c17d55-4f11-4d58-a19d-bddf656dc8ff"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Burial set id",
+        "Varbits": [
+          "Item Selection"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "c5c17d55-4f11-4d58-a19d-bddf656dc8ff",
+        "position": {
+          "x": "751.0",
+          "y": "1389.0"
+        },
+        "flowTasks": {
+          "success": "cde2ccc9-8beb-4941-904e-fda819ae3a22",
+          "failure": "dccf5105-7815-44e1-bf43-6643829d5d8b"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Select"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,103,13",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "KeyboardAction",
+      "base": {
+        "id": "e656b069-843a-400a-8edd-0ef5f6c3452a",
+        "position": {
+          "x": "1041.0",
+          "y": "1054.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Action": "Press",
+        "Character": "Space",
+        "IntervalLow": 100.0,
+        "IntervalHigh": 4000.0
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "dccf5105-7815-44e1-bf43-6643829d5d8b",
+        "position": {
+          "x": "1363.0",
+          "y": "1638.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Burial forge"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "cde2ccc9-8beb-4941-904e-fda819ae3a22",
+        "position": {
+          "x": "1244.0",
+          "y": "1315.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,103,13"
+        ],
+        "ActionValues": [
+          "Select"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "cac75678-e6b6-4116-a09b-7a773fa069f8",
+        "position": {
+          "x": "-158.0",
+          "y": "1102.0"
+        },
+        "flowTasks": {
+          "success": "6463660b-021c-48da-8747-61cc7e1cfdf9",
+          "failure": "7bd81c4a-c96b-4b43-bca5-3305d43ede3e"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+4",
+          "boots+4",
+          "gauntlets+4",
+          "Helm +4",
+          "legs+4"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains all of:"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "0da9f69b-a0c2-49dc-8e93-3305464388fb",
+        "position": {
+          "x": "664.0",
+          "y": "1003.0"
+        },
+        "flowTasks": {
+          "success": "e656b069-843a-400a-8edd-0ef5f6c3452a",
+          "failure": "c5c17d55-4f11-4d58-a19d-bddf656dc8ff"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "aac3bfe1-8198-4f52-adbf-fe26232997e6",
+        "position": {
+          "x": "-624.0",
+          "y": "1803.0"
+        },
+        "flowTasks": {
+          "success": "eb076df5-2265-4ffd-b564-f2a809f7fc39"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "+4 sorting"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "bc5bd302-8a6a-45e7-9843-6d7c579f3c19",
+        "position": {
+          "x": "-1994.0",
+          "y": "2804.0"
+        },
+        "flowTasks": {
+          "success": "a2472021-a585-4a0a-8ca1-403cade1c866",
+          "failure": "c7173ae6-39eb-4e7a-8f52-2ab74538df9b"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "",
+        "Cache container": false
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "c7173ae6-39eb-4e7a-8f52-2ab74538df9b",
+        "position": {
+          "x": "-1446.0",
+          "y": "2791.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Heat"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Forge"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Heat"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "a2472021-a585-4a0a-8ca1-403cade1c866",
+        "position": {
+          "x": "-2040.0",
+          "y": "3172.0"
+        },
+        "flowTasks": {
+          "success": "d3f854af-5c7f-49df-9ad7-3d3238675ecc",
+          "failure": "b848b6f2-7431-41ef-b52f-f07107f28129"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Zero",
+        "Varbits": [
+          "Tier selection"
+        ],
+        "Type": "Varbit",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "370ade81-f0b3-4fd0-8485-4b1436365a90",
+        "position": {
+          "x": "-176.0",
+          "y": "1595.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Base check",
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "8e1aec9e-bebe-48a1-a217-3b806ac55ca9",
+        "position": {
+          "x": "2032.0",
+          "y": "2689.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Base check",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "b848b6f2-7431-41ef-b52f-f07107f28129",
+        "position": {
+          "x": "-1576.0",
+          "y": "3135.0"
+        },
+        "flowTasks": {
+          "success": "754472fa-531a-40f4-88bb-3f398ee184c8"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [
+          "Base"
+        ],
+        "TextRegex": true,
+        "ActionValues": [],
+        "ActionRegex": false,
+        "InterfaceObject": "37,149",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "754472fa-531a-40f4-88bb-3f398ee184c8",
+        "position": {
+          "x": "-1045.0",
+          "y": "3138.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Click",
+        "Values": [
+          "37,149"
+        ],
+        "ActionValues": [],
+        "ItemRegex": false,
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "83776e6f-a7f4-4d23-be8e-e6c1b3202134",
+        "position": {
+          "x": "-2079.0",
+          "y": "2190.0"
+        },
+        "flowTasks": {
+          "success": "cdc064ac-84b0-45f0-90d3-885235bbf872"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Base check"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "d3f854af-5c7f-49df-9ad7-3d3238675ecc",
+        "position": {
+          "x": "-2030.0",
+          "y": "3549.0"
+        },
+        "flowTasks": {
+          "success": "6b8924f0-2502-4963-a85f-b1f8ee60d78f",
+          "failure": "5901a655-1b64-4171-89d3-10a7a9868685"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Boots"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains none of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "5901a655-1b64-4171-89d3-10a7a9868685",
+        "position": {
+          "x": "-2014.0",
+          "y": "3808.0"
+        },
+        "flowTasks": {
+          "success": "cd554f4d-befb-49e6-8ea2-a769cb75f2ba",
+          "failure": "5f70d0cc-885d-46c8-950e-935a3d433c56"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Gloves"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains none of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "6b8924f0-2502-4963-a85f-b1f8ee60d78f",
+        "position": {
+          "x": "-1410.0",
+          "y": "3634.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make boots",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "cd554f4d-befb-49e6-8ea2-a769cb75f2ba",
+        "position": {
+          "x": "-1367.0",
+          "y": "3810.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make gaunts",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "5f70d0cc-885d-46c8-950e-935a3d433c56",
+        "position": {
+          "x": "-1998.0",
+          "y": "4038.0"
+        },
+        "flowTasks": {
+          "success": "953942f6-85d3-4087-a605-3795ad8acd48",
+          "failure": "9541abc1-179e-49e0-b7a8-a0d49fa5962e"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Pl8bod"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains none of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "9541abc1-179e-49e0-b7a8-a0d49fa5962e",
+        "position": {
+          "x": "-1992.0",
+          "y": "4274.0"
+        },
+        "flowTasks": {
+          "success": "8db0d7b1-775d-4f0a-9966-0194ab8c77d3",
+          "failure": "50c241bc-191c-491a-817e-b5cae9c26e64"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Pl8legs"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains none of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "953942f6-85d3-4087-a605-3795ad8acd48",
+        "position": {
+          "x": "-1354.0",
+          "y": "4037.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "plates",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "8db0d7b1-775d-4f0a-9966-0194ab8c77d3",
+        "position": {
+          "x": "-1359.0",
+          "y": "4224.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make legs",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "f51a4220-cf43-4a9d-9ce3-36e50286fb4e",
+        "position": {
+          "x": "-1420.0",
+          "y": "4617.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "T1",
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "50c241bc-191c-491a-817e-b5cae9c26e64",
+        "position": {
+          "x": "-2006.0",
+          "y": "4503.0"
+        },
+        "flowTasks": {
+          "success": "01d31da7-7033-4cca-9212-897631e267f0",
+          "failure": "f51a4220-cf43-4a9d-9ce3-36e50286fb4e"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Fullhelm"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains none of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "01d31da7-7033-4cca-9212-897631e267f0",
+        "position": {
+          "x": "-1396.0",
+          "y": "4445.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Make helm",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "999d6811-6f61-428a-a80c-45589fe2112c",
+        "position": {
+          "x": "2067.0",
+          "y": "1004.0"
+        },
+        "flowTasks": {
+          "success": "bc76fc8b-8c9c-4819-9d9c-99f9156ef1a0",
+          "failure": "f639eedc-b444-4e03-96cf-342ad17a9d7f"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Unfinished item"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "ResetToStart",
+      "base": {
+        "id": "bc76fc8b-8c9c-4819-9d9c-99f9156ef1a0",
+        "position": {
+          "x": "2465.0",
+          "y": "1028.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {}
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "2e2e9ef3-e84f-4108-b66e-5bd7a1987e6e",
+        "position": {
+          "x": "1043.0",
+          "y": "3097.0"
+        },
+        "flowTasks": {
+          "success": "4ab4f574-7cf8-4f5e-aa17-cbf45a05bd23"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Fullhelm"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "6ed0aa98-bdbc-44f9-9034-0c8d5ff3242b",
+        "position": {
+          "x": "490.0",
+          "y": "3119.0"
+        },
+        "flowTasks": {
+          "success": "4ab4f574-7cf8-4f5e-aa17-cbf45a05bd23"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Helm +1"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "eb076df5-2265-4ffd-b564-f2a809f7fc39",
+        "position": {
+          "x": "-616.0",
+          "y": "2041.0"
+        },
+        "flowTasks": {
+          "success": "342e62f5-57fc-40fc-b006-a23a3b68cc91",
+          "failure": "324f6dfd-66dd-4a20-9c5d-105f28359c8a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "boots+3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "324f6dfd-66dd-4a20-9c5d-105f28359c8a",
+        "position": {
+          "x": "-611.0",
+          "y": "2291.0"
+        },
+        "flowTasks": {
+          "success": "d89bc1f0-656e-4d8e-8f3d-44d17e809409",
+          "failure": "06f46f09-be75-4605-bb3a-624bf14d2d4a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "gauntlets+3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "3def271e-18bc-4130-afd8-77749e3e4e19",
+        "position": {
+          "x": "2849.0",
+          "y": "2809.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "+4 sorting",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "06f46f09-be75-4605-bb3a-624bf14d2d4a",
+        "position": {
+          "x": "-584.0",
+          "y": "2563.0"
+        },
+        "flowTasks": {
+          "success": "78d94f05-381c-4aee-accf-db4c60365a75",
+          "failure": "c346be2b-b105-4185-9a22-c9d56e41936b"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Body+3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "c346be2b-b105-4185-9a22-c9d56e41936b",
+        "position": {
+          "x": "-565.0",
+          "y": "2839.0"
+        },
+        "flowTasks": {
+          "success": "c658e4af-3b56-4db7-8007-9bea2e996f20",
+          "failure": "7c581c66-70d2-4acc-bcde-f4986de1c0c7"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "legs+3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "e8eea3c8-956f-4b5e-96f9-977f0d210bf9",
+        "position": {
+          "x": "-60.0",
+          "y": "3124.0"
+        },
+        "flowTasks": {
+          "success": "4ab4f574-7cf8-4f5e-aa17-cbf45a05bd23"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Helm + 2"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "7c581c66-70d2-4acc-bcde-f4986de1c0c7",
+        "position": {
+          "x": "-529.0",
+          "y": "3111.0"
+        },
+        "flowTasks": {
+          "success": "4ab4f574-7cf8-4f5e-aa17-cbf45a05bd23"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Helm +3"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "675d9a86-57d8-489a-8436-e26fe001e0c8",
+        "position": {
+          "x": "2001.0",
+          "y": "1545.0"
+        },
+        "flowTasks": {
+          "success": "21263188-cba6-414f-8508-1a973fa22c8e",
+          "failure": "abd6b8a1-be2c-45e7-b64b-c02416437d83"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Boots",
+          "Fullhelm",
+          "Gloves",
+          "Pl8bod",
+          "Pl8legs"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains all of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "abd6b8a1-be2c-45e7-b64b-c02416437d83",
+        "position": {
+          "x": "1732.0",
+          "y": "1637.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Base check",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "VarbitCondition",
+      "base": {
+        "id": "494f2de9-6c5c-49a7-9877-0a04967df5f8",
+        "position": {
+          "x": "2857.0",
+          "y": "850.0"
+        },
+        "flowTasks": {
+          "success": "675d9a86-57d8-489a-8436-e26fe001e0c8",
+          "failure": "d26947b2-7db3-45d5-b501-4172edbed112"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Bar selected id",
+        "Varbits": [
+          "Bar selection varp"
+        ],
+        "Type": "Varp",
+        "Condition": "Equals (\u003d)"
+      }
+    },
+    {
+      "name": "InterfaceCondition",
+      "base": {
+        "id": "d26947b2-7db3-45d5-b501-4172edbed112",
+        "position": {
+          "x": "3410.0",
+          "y": "774.0"
+        },
+        "flowTasks": {
+          "success": "a4b7ca42-e09b-477d-9915-e8ba454ed8c5"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": true,
+          "bool1": false,
+          "bool2": false,
+          "list0": [
+            "Container"
+          ],
+          "TypeList": [],
+          "type": "ICQuery"
+        }
+      },
+      "variables": {
+        "TextValues": [],
+        "TextRegex": false,
+        "ActionValues": [
+          "Bar needed"
+        ],
+        "ActionRegex": true,
+        "InterfaceObject": "37,52,17",
+        "Cache container": true
+      }
+    },
+    {
+      "name": "InterfaceAction",
+      "base": {
+        "id": "a4b7ca42-e09b-477d-9915-e8ba454ed8c5",
+        "position": {
+          "x": "4058.0",
+          "y": "853.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "Action",
+        "Values": [
+          "37,52,17"
+        ],
+        "ActionValues": [
+          "Bar needed"
+        ],
+        "ItemRegex": false,
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "c27b64bd-dfd5-45c3-a0f3-a6742e0848f1",
+        "position": {
+          "x": "2132.0",
+          "y": "820.0"
+        },
+        "flowTasks": {
+          "success": "4e8fa39e-759a-4019-b580-3a26c1f54cc4",
+          "failure": "999d6811-6f61-428a-a80c-45589fe2112c"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Out of bars?"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "StopAction",
+      "base": {
+        "id": "4e8fa39e-759a-4019-b580-3a26c1f54cc4",
+        "position": {
+          "x": "2614.0",
+          "y": "779.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "7bd81c4a-c96b-4b43-bca5-3305d43ede3e",
+        "position": {
+          "x": "-155.0",
+          "y": "1350.0"
+        },
+        "flowTasks": {
+          "success": "6463660b-021c-48da-8747-61cc7e1cfdf9",
+          "failure": "370ade81-f0b3-4fd0-8485-4b1436365a90"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Unfinished item"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "5bd429d2-5fba-455d-bf9d-073b301fc8f3",
+        "position": {
+          "x": "4741.0",
+          "y": "3378.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "T1",
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "cdc064ac-84b0-45f0-90d3-885235bbf872",
+        "position": {
+          "x": "-2028.0",
+          "y": "2550.0"
+        },
+        "flowTasks": {
+          "success": "0a44b990-efdf-4090-8ae8-aeb12b02e296",
+          "failure": "bc5bd302-8a6a-45e7-9843-6d7c579f3c19"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Unfinished item"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "ResetToStart",
+      "base": {
+        "id": "0a44b990-efdf-4090-8ae8-aeb12b02e296",
+        "position": {
+          "x": "-1539.0",
+          "y": "2523.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {}
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "fc72460e-21db-4f25-a726-2e3f8e471bc2",
+        "position": {
+          "x": "1160.0",
+          "y": "442.0"
+        },
+        "flowTasks": {
+          "success": "159c8fd6-3be6-4253-bded-e63b83e19215",
+          "failure": "002fbaa7-1840-4350-8bb9-da2c92732f08"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Prayer pot"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "StatusCondition",
+      "base": {
+        "id": "159c8fd6-3be6-4253-bded-e63b83e19215",
+        "position": {
+          "x": "1516.0",
+          "y": "216.0"
+        },
+        "flowTasks": {
+          "success": "fc6b5186-e2bb-4570-aa31-90a7e0f9fce9",
+          "failure": "002fbaa7-1840-4350-8bb9-da2c92732f08"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Comparator": "prayer point min",
+        "Condition": "Less than (\u003c)",
+        "Type": "Prayer points"
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "fc6b5186-e2bb-4570-aa31-90a7e0f9fce9",
+        "position": {
+          "x": "1982.0",
+          "y": "101.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list5": [
+            "Drink"
+          ],
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Inventory",
+        "ItemValues": [
+          "Prayer pot"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Drink"
+        ],
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "09fed8bd-0663-4bfa-a728-8ff1fb58dfb8",
+        "position": {
+          "x": "-777.0",
+          "y": "773.0"
+        },
+        "flowTasks": {
+          "success": "aa4fc956-192a-4874-8acf-d7e29c5a4934",
+          "failure": "2bf56cf9-4140-4f86-8c9c-43231cb7310d"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Prayer pot"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "StatusCondition",
+      "base": {
+        "id": "aa4fc956-192a-4874-8acf-d7e29c5a4934",
+        "position": {
+          "x": "-822.0",
+          "y": "1028.0"
+        },
+        "flowTasks": {
+          "success": "25ac5135-4412-4c60-b01f-f29ce5c7fbdc",
+          "failure": "2bf56cf9-4140-4f86-8c9c-43231cb7310d"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Comparator": "prayer point min",
+        "Condition": "Less than (\u003c)",
+        "Type": "Prayer points"
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "25ac5135-4412-4c60-b01f-f29ce5c7fbdc",
+        "position": {
+          "x": "-433.0",
+          "y": "1002.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list5": [
+            "Drink"
+          ],
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Inventory",
+        "ItemValues": [
+          "Prayer pot"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Drink"
+        ],
+        "ActionRegex": false
+      }
+    }
+  ],
+  "BotCategory": "MINING",
+  "inventoryData": {},
+  "internalData": {
+    "Mouse multiplier": 1.0,
+    "Mouse path": "MLP_PATH_GENERATOR",
+    "Disable advanced": false
+  }
+}
