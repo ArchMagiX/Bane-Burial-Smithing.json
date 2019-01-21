@@ -4059,11 +4059,11 @@
       "base": {
         "id": "2fe44da8-94e0-4a36-bcd4-eca643e9efb2",
         "position": {
-          "x": "-777.0",
-          "y": "773.0"
+          "x": "-463.0",
+          "y": "571.0"
         },
         "flowTasks": {
-          "success": "78a1de99-98a5-4f76-9c9e-da2697f9bd02",
+          "success": "20d85bdc-cc66-4f3f-9913-2c442dc457ab",
           "failure": "b09d015b-afd3-4017-84b0-84630c1f7963"
         },
         "delayMultiplier": 1.0,
@@ -4076,7 +4076,8 @@
       },
       "variables": {
         "ItemValues": [
-          "Prayer pot"
+          "Prayer pot",
+          "Cere sword"
         ],
         "ItemRegex": true,
         "Condition": "Contains any of:"
@@ -4169,6 +4170,66 @@
         "position": {
           "x": "1579.0",
           "y": "-227.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "list5": [
+            "Drop"
+          ],
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Inventory",
+        "ItemValues": [
+          "Cere sword"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Drop"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "20d85bdc-cc66-4f3f-9913-2c442dc457ab",
+        "position": {
+          "x": "-775.0",
+          "y": "811.0"
+        },
+        "flowTasks": {
+          "success": "46d6058c-2f4f-450d-bb13-8ba690cd8616",
+          "failure": "78a1de99-98a5-4f76-9c9e-da2697f9bd02"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Cere sword"
+        ],
+        "ItemRegex": true,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "46d6058c-2f4f-450d-bb13-8ba690cd8616",
+        "position": {
+          "x": "0.0",
+          "y": "564.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0,
