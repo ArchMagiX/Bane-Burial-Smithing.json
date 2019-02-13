@@ -121,9 +121,29 @@
       "type": "INTERFACE_OBJECT"
     },
     {
+      "name": "37,52,17",
+      "value": "",
+      "type": "INTERFACE_OBJECT"
+    },
+    {
       "name": "Anvil",
       "value": "Anvil",
       "type": "GO"
+    },
+    {
+      "name": "Bar needed",
+      "value": "Select Rune",
+      "type": "ACTION"
+    },
+    {
+      "name": "Bar selected id",
+      "value": "1495",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Bar selection varp",
+      "value": "8332",
+      "type": "VARBIT"
     },
     {
       "name": "Base",
@@ -206,6 +226,11 @@
       "type": "NUMBER"
     },
     {
+      "name": "Cere sword",
+      "value": "sword design",
+      "type": "SPRITE_ITEM"
+    },
+    {
       "name": "Container",
       "value": "37",
       "type": "NUMBER"
@@ -216,9 +241,24 @@
       "type": "ACTION"
     },
     {
+      "name": "Drink",
+      "value": "Drink",
+      "type": "ACTION"
+    },
+    {
+      "name": "Drop",
+      "value": "Drop",
+      "type": "ACTION"
+    },
+    {
       "name": "Forge",
       "value": "Forge",
       "type": "GO"
+    },
+    {
+      "name": "Forge id",
+      "value": "Coordinate(3046, 3345, 0)",
+      "type": "COORDINATE"
     },
     {
       "name": "Full heat",
@@ -356,6 +396,11 @@
       "type": "SPRITE_ITEM"
     },
     {
+      "name": "Out of bars?",
+      "value": "You lack the materials",
+      "type": "STRING"
+    },
+    {
       "name": "Pl8bod",
       "value": "Rune platebody",
       "type": "SPRITE_ITEM"
@@ -388,6 +433,16 @@
     {
       "name": "Plus 4",
       "value": "+ 4",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "prayer point min",
+      "value": "400",
+      "type": "NUMBER"
+    },
+    {
+      "name": "Prayer pot",
+      "value": "Prayer potion",
       "type": "SPRITE_ITEM"
     },
     {
@@ -456,92 +511,57 @@
       "type": "NUMBER"
     },
     {
-      "name": "Forge id",
-      "value": "Coordinate(3046, 3345, 0)",
-      "type": "COORDINATE"
-    },
-    {
-      "name": "Bar selection varp",
-      "value": "8332",
-      "type": "VARBIT"
-    },
-    {
-      "name": "Bar selected id",
-      "value": "1495",
-      "type": "NUMBER"
-    },
-    {
-      "name": "Bar needed",
-      "value": "Select Rune",
-      "type": "ACTION"
-    },
-    {
-      "name": "37,52,17",
-      "value": "",
-      "type": "INTERFACE_OBJECT"
-    },
-    {
-      "name": "Out of bars?",
-      "value": "You lack the materials",
+      "name": "Target level achieved",
+      "value": "Target level achieved, Stopping bot.",
       "type": "STRING"
     },
     {
-      "name": "prayer point min",
-      "value": "400",
+      "name": "Target level",
+      "value": "60",
       "type": "NUMBER"
     },
     {
-      "name": "Prayer pot",
-      "value": "Prayer potion",
-      "type": "SPRITE_ITEM"
+      "name": "",
+      "value": "",
+      "type": "STRING"
     },
     {
-      "name": "Drink",
-      "value": "Drink",
-      "type": "ACTION"
-    },
-    {
-      "name": "Cere sword",
-      "value": "sword design",
-      "type": "SPRITE_ITEM"
-    },
-    {
-      "name": "Drop",
-      "value": "Drop",
-      "type": "ACTION"
+      "name": "out of bars",
+      "value": "Out of Bars, Stopping bot.",
+      "type": "STRING"
     }
   ],
   "NodeCollection": [
     {
       "name": "StartCondition",
       "base": {
-        "id": "9b41e703-82d1-4d72-a198-63adbcdcb01c",
+        "id": "0a3c38c3-46dc-4248-821f-f30c8262b524",
         "position": {
           "x": "0.0",
           "y": "0.0"
         },
         "flowTasks": {
-          "success": "6fd7a9f8-b294-4552-906c-d26555b3def3"
+          "success": "d71b3eee-f7b7-4f4c-8869-f25fef590ab1"
         },
         "delayMultiplier": 1.0
       },
       "variables": {
         "GameMode": "RS3",
-        "IntervalLow": 1000.0,
-        "IntervalHigh": 1984.5693966735334
+        "IntervalLow": 653.6012436655759,
+        "IntervalHigh": 1514.0442060129376
       }
     },
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "8e28e589-facd-48bb-8475-e90749f20d6e",
+        "id": "3c7eb7bd-3e8b-4687-8334-9d40adf25efa",
         "position": {
           "x": "2329.0",
           "y": "296.0"
         },
         "flowTasks": {
-          "success": "6c31e679-b6f2-45ef-b296-cad6d75848c8",
-          "failure": "bece1363-6842-4415-8d63-ff0013815339"
+          "success": "035f560f-6db4-486f-be5a-34beea49e870",
+          "failure": "d30cb06d-474a-4c49-8ba9-87720920a497"
         },
         "delayMultiplier": 1.0
       },
@@ -556,7 +576,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "6c31e679-b6f2-45ef-b296-cad6d75848c8",
+        "id": "035f560f-6db4-486f-be5a-34beea49e870",
         "position": {
           "x": "2826.0",
           "y": "82.0"
@@ -592,14 +612,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "056e380f-5b32-429b-964e-85d4c8965079",
+        "id": "f6a1ac80-55d2-4017-9fe1-616287ba3363",
         "position": {
           "x": "2000.0",
           "y": "454.0"
         },
         "flowTasks": {
-          "success": "8e28e589-facd-48bb-8475-e90749f20d6e",
-          "failure": "6f446ab8-db88-49b0-9091-5bffd15715d5"
+          "success": "3c7eb7bd-3e8b-4687-8334-9d40adf25efa",
+          "failure": "3a260415-16f1-4834-8d59-d4deb40aac17"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -620,14 +640,14 @@
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "bece1363-6842-4415-8d63-ff0013815339",
+        "id": "d30cb06d-474a-4c49-8ba9-87720920a497",
         "position": {
           "x": "2403.0",
           "y": "435.0"
         },
         "flowTasks": {
-          "success": "2225f714-8f06-4f9a-9dac-f191160b02fb",
-          "failure": "09975d2d-7f75-4349-8f5e-ee1c416835c2"
+          "success": "64944c1f-4e39-40d8-84d0-6d819236e86c",
+          "failure": "d918a269-a063-4aa0-b295-c8f2bd85e5fe"
         },
         "delayMultiplier": 1.0
       },
@@ -641,7 +661,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "2225f714-8f06-4f9a-9dac-f191160b02fb",
+        "id": "64944c1f-4e39-40d8-84d0-6d819236e86c",
         "position": {
           "x": "3226.0",
           "y": "257.0"
@@ -677,13 +697,13 @@
     {
       "name": "PlayerCondition",
       "base": {
-        "id": "09975d2d-7f75-4349-8f5e-ee1c416835c2",
+        "id": "d918a269-a063-4aa0-b295-c8f2bd85e5fe",
         "position": {
           "x": "2786.0",
           "y": "417.0"
         },
         "flowTasks": {
-          "failure": "2225f714-8f06-4f9a-9dac-f191160b02fb"
+          "failure": "64944c1f-4e39-40d8-84d0-6d819236e86c"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -702,14 +722,14 @@
     {
       "name": "NpcCondition",
       "base": {
-        "id": "368f3834-83e8-45ea-8fb3-3eac2b0afc2e",
+        "id": "a2623cfa-ff40-447e-90c1-d72f5e9f0c09",
         "position": {
           "x": "790.0",
           "y": "352.0"
         },
         "flowTasks": {
-          "success": "fb489654-f87d-4f59-af01-62a4e24cd563",
-          "failure": "f53841f6-4003-47c6-8fb6-cf0c2d69df77"
+          "success": "7cd77ab7-fc5f-404f-974d-b065f5da48e9",
+          "failure": "5ed8c444-f8e7-4d90-ad32-e75ae56fda94"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -734,7 +754,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "fb489654-f87d-4f59-af01-62a4e24cd563",
+        "id": "7cd77ab7-fc5f-404f-974d-b065f5da48e9",
         "position": {
           "x": "1023.0",
           "y": "5.0"
@@ -764,13 +784,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "ea7cf0cd-c40e-4cdc-b56d-10e50432a744",
+        "id": "d76f157d-1fd3-47c8-8812-b58c72354c6e",
         "position": {
           "x": "1993.0",
           "y": "663.0"
         },
         "flowTasks": {
-          "success": "d20024e0-b749-4734-b087-c0fbf6103c6f"
+          "success": "9696f7bb-e6df-41f6-aa16-779929e70f91"
         },
         "delayMultiplier": 1.0
       },
@@ -781,14 +801,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "b6ae8f1a-78ac-4379-971b-6660933be0a4",
+        "id": "5b63e1d2-3920-4bd0-a6f8-b29b4e9f3478",
         "position": {
           "x": "2002.0",
           "y": "1768.0"
         },
         "flowTasks": {
-          "success": "ac9c6a90-66cf-4d8b-838d-ad4048cc9a64",
-          "failure": "64dc7cc1-dd0c-42dd-be13-74b7da73d0a9"
+          "success": "874d79d8-ee54-4f4e-83a7-596b24b2d64c",
+          "failure": "39e5f953-f942-4cf5-8824-40717dbd4ae5"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -813,14 +833,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "ac9c6a90-66cf-4d8b-838d-ad4048cc9a64",
+        "id": "874d79d8-ee54-4f4e-83a7-596b24b2d64c",
         "position": {
           "x": "2408.0",
           "y": "1502.0"
         },
         "flowTasks": {
-          "success": "92c3f62c-12aa-43a3-86eb-8fb866c67c59",
-          "failure": "0c66928e-4df1-4026-ad13-d41a59272b89"
+          "success": "62d4e928-3939-443a-a18a-5636d702fc76",
+          "failure": "9596ac6f-3c11-45a0-943e-2c09068ac02e"
         },
         "delayMultiplier": 1.0
       },
@@ -836,14 +856,14 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "0c66928e-4df1-4026-ad13-d41a59272b89",
+        "id": "9596ac6f-3c11-45a0-943e-2c09068ac02e",
         "position": {
           "x": "2837.0",
           "y": "1264.0"
         },
         "flowTasks": {
-          "success": "f7a8da03-c4c1-418a-90c4-9acb7ca1176a",
-          "failure": "fc0ee699-cf38-4d29-86c6-9b6d1ed53dbc"
+          "success": "afdcb4fb-6edb-47ea-a064-529be97786f1",
+          "failure": "09897be2-af57-46f1-89da-94dc77de488a"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -851,6 +871,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -871,7 +892,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "f7a8da03-c4c1-418a-90c4-9acb7ca1176a",
+        "id": "afdcb4fb-6edb-47ea-a064-529be97786f1",
         "position": {
           "x": "3343.0",
           "y": "1130.0"
@@ -894,7 +915,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "6f446ab8-db88-49b0-9091-5bffd15715d5",
+        "id": "3a260415-16f1-4834-8d59-d4deb40aac17",
         "position": {
           "x": "2513.0",
           "y": "575.0"
@@ -910,14 +931,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "ddb32004-2821-4ab0-8b66-08927dd82d6c",
+        "id": "1abeea9f-30be-4601-8f0f-f045c7ac2dac",
         "position": {
           "x": "4060.0",
           "y": "2942.0"
         },
         "flowTasks": {
-          "success": "f12553b6-22c9-48f2-affa-cae30935fc96",
-          "failure": "5b3acb66-804b-493c-93fc-c8b44c2c6ed3"
+          "success": "a463aca3-dc83-44f1-b9d6-e9644b96e3c9",
+          "failure": "b2b00d45-663a-4226-afec-5ad9a8081c4b"
         },
         "delayMultiplier": 1.0
       },
@@ -933,7 +954,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "7c3e820d-eaab-49b3-a34b-fe4ac1fa3cba",
+        "id": "ac593426-9d26-43ec-81ef-9c65ae867423",
         "position": {
           "x": "5046.0",
           "y": "2795.0"
@@ -956,7 +977,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "f12553b6-22c9-48f2-affa-cae30935fc96",
+        "id": "a463aca3-dc83-44f1-b9d6-e9644b96e3c9",
         "position": {
           "x": "4401.0",
           "y": "2638.0"
@@ -974,13 +995,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "5b3acb66-804b-493c-93fc-c8b44c2c6ed3",
+        "id": "b2b00d45-663a-4226-afec-5ad9a8081c4b",
         "position": {
           "x": "4603.0",
           "y": "2934.0"
         },
         "flowTasks": {
-          "success": "7c3e820d-eaab-49b3-a34b-fe4ac1fa3cba"
+          "success": "ac593426-9d26-43ec-81ef-9c65ae867423"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -988,6 +1009,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [
@@ -1012,7 +1034,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "fc0ee699-cf38-4d29-86c6-9b6d1ed53dbc",
+        "id": "09897be2-af57-46f1-89da-94dc77de488a",
         "position": {
           "x": "3354.0",
           "y": "1429.0"
@@ -1048,14 +1070,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "64dc7cc1-dd0c-42dd-be13-74b7da73d0a9",
+        "id": "39e5f953-f942-4cf5-8824-40717dbd4ae5",
         "position": {
           "x": "1999.0",
           "y": "1990.0"
         },
         "flowTasks": {
-          "success": "16accaa1-e37f-49bf-83e2-6fe9a696724e",
-          "failure": "6997c585-eaa9-4bf2-9b2b-528f627cd582"
+          "success": "2eee465b-6605-4333-a1f3-990aa3c2e34f",
+          "failure": "38a04566-bc20-4e9a-a0b2-eccb07577bf4"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1080,14 +1102,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "16accaa1-e37f-49bf-83e2-6fe9a696724e",
+        "id": "2eee465b-6605-4333-a1f3-990aa3c2e34f",
         "position": {
           "x": "2409.0",
           "y": "1885.0"
         },
         "flowTasks": {
-          "success": "5ebee4e5-ef9a-4c88-a51f-73e4d76ed1f1",
-          "failure": "8142404f-0ffb-476d-9670-7f85c88372e2"
+          "success": "3699404a-3294-4655-a7aa-587034822504",
+          "failure": "e32cce0a-5abb-40b3-8cb5-b4b99113e642"
         },
         "delayMultiplier": 1.0
       },
@@ -1103,13 +1125,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "8142404f-0ffb-476d-9670-7f85c88372e2",
+        "id": "e32cce0a-5abb-40b3-8cb5-b4b99113e642",
         "position": {
           "x": "2897.0",
           "y": "1662.0"
         },
         "flowTasks": {
-          "success": "f2b9da26-a58c-4660-ab68-12165c55e708"
+          "success": "f33bc03f-cdcb-43f4-834e-50ddb0e8e226"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1117,6 +1139,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -1137,7 +1160,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "f2b9da26-a58c-4660-ab68-12165c55e708",
+        "id": "f33bc03f-cdcb-43f4-834e-50ddb0e8e226",
         "position": {
           "x": "3315.0",
           "y": "1762.0"
@@ -1158,14 +1181,14 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "149411a6-0b72-491c-9241-048386cf6d43",
+        "id": "808fc769-55e6-4fb2-aa67-3f8648bf1824",
         "position": {
           "x": "2022.0",
           "y": "1207.0"
         },
         "flowTasks": {
-          "success": "0708a567-cafa-4c7b-b516-607a2e9f2d75",
-          "failure": "b628a76c-7cf8-4f6e-ae38-5c1dd5cdf8e3"
+          "success": "747eabfe-c88b-4922-b6f1-b31d125f49b5",
+          "failure": "042594a6-d4ab-482e-929b-4b29bf36599f"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1173,6 +1196,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -1191,7 +1215,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "b628a76c-7cf8-4f6e-ae38-5c1dd5cdf8e3",
+        "id": "042594a6-d4ab-482e-929b-4b29bf36599f",
         "position": {
           "x": "2474.0",
           "y": "1174.0"
@@ -1227,14 +1251,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "6997c585-eaa9-4bf2-9b2b-528f627cd582",
+        "id": "38a04566-bc20-4e9a-a0b2-eccb07577bf4",
         "position": {
           "x": "1977.0",
           "y": "2216.0"
         },
         "flowTasks": {
-          "success": "f1245fbc-1e1f-4cba-bbd6-8360ad5d6c0b",
-          "failure": "813123c8-4c38-426b-ad4f-798e3850ea8f"
+          "success": "29ebb896-07bd-4a8f-82c4-67910ea4d1ad",
+          "failure": "6480bf98-68b1-4118-b03f-3ebb51b89f1c"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1259,13 +1283,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "ecdcfb0a-0a12-423a-8f2b-c9d0e74afab6",
+        "id": "c04d9356-a5b4-4986-9c11-dc3268d9f943",
         "position": {
           "x": "3751.0",
           "y": "2819.0"
         },
         "flowTasks": {
-          "success": "ddb32004-2821-4ab0-8b66-08927dd82d6c"
+          "success": "1abeea9f-30be-4601-8f0f-f045c7ac2dac"
         },
         "delayMultiplier": 1.0
       },
@@ -1276,7 +1300,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "5ebee4e5-ef9a-4c88-a51f-73e4d76ed1f1",
+        "id": "3699404a-3294-4655-a7aa-587034822504",
         "position": {
           "x": "2935.0",
           "y": "2138.0"
@@ -1292,14 +1316,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "f1245fbc-1e1f-4cba-bbd6-8360ad5d6c0b",
+        "id": "29ebb896-07bd-4a8f-82c4-67910ea4d1ad",
         "position": {
           "x": "2407.0",
           "y": "2283.0"
         },
         "flowTasks": {
-          "success": "57a7f6c8-7daa-4195-b142-24964976d80d",
-          "failure": "db74112d-908d-49df-ad74-a34a06a8397c"
+          "success": "7df8a1c7-d111-4f26-b76e-99b2871a9252",
+          "failure": "0c6a20ef-a549-4686-95e7-0342f2da5665"
         },
         "delayMultiplier": 1.0
       },
@@ -1315,13 +1339,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "db74112d-908d-49df-ad74-a34a06a8397c",
+        "id": "0c6a20ef-a549-4686-95e7-0342f2da5665",
         "position": {
           "x": "2802.0",
           "y": "2433.0"
         },
         "flowTasks": {
-          "success": "8823ee8c-281d-43e4-b04c-16ae4a0fb4bb"
+          "success": "06eb8a2b-299f-45cb-a716-01e59a514339"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1346,7 +1370,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "8823ee8c-281d-43e4-b04c-16ae4a0fb4bb",
+        "id": "06eb8a2b-299f-45cb-a716-01e59a514339",
         "position": {
           "x": "3249.0",
           "y": "2473.0"
@@ -1367,7 +1391,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "c769e22b-dbc5-4754-8626-de5c3105f708",
+        "id": "117c9a34-e85c-4251-b808-024dc994b67f",
         "position": {
           "x": "3316.0",
           "y": "2980.0"
@@ -1388,13 +1412,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "ca5542c4-6245-464d-b007-cf4f5ac03517",
+        "id": "7c2ac7dc-62ac-400b-bb41-a41555ac7165",
         "position": {
           "x": "3533.0",
           "y": "3476.0"
         },
         "flowTasks": {
-          "success": "4fa3eaf1-b9b5-44f9-8f94-67557c4219df"
+          "success": "1cc66b83-f6a7-40f2-af4c-d7853456f47c"
         },
         "delayMultiplier": 1.0
       },
@@ -1405,14 +1429,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "4fa3eaf1-b9b5-44f9-8f94-67557c4219df",
+        "id": "1cc66b83-f6a7-40f2-af4c-d7853456f47c",
         "position": {
           "x": "3692.0",
           "y": "3707.0"
         },
         "flowTasks": {
-          "success": "3135ffca-d49a-4c30-ae8e-600ac79c40ca",
-          "failure": "c6c6d0bc-83e2-4163-97c9-cf2a8953da90"
+          "success": "393ebc53-6416-4f8d-8d3a-cb3fc3bcf42d",
+          "failure": "7bd6cab3-23e9-4252-a1fc-1d631c32fb36"
         },
         "delayMultiplier": 1.0
       },
@@ -1428,7 +1452,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "3135ffca-d49a-4c30-ae8e-600ac79c40ca",
+        "id": "393ebc53-6416-4f8d-8d3a-cb3fc3bcf42d",
         "position": {
           "x": "4105.0",
           "y": "3353.0"
@@ -1446,13 +1470,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "c6c6d0bc-83e2-4163-97c9-cf2a8953da90",
+        "id": "7bd6cab3-23e9-4252-a1fc-1d631c32fb36",
         "position": {
           "x": "4215.0",
           "y": "3671.0"
         },
         "flowTasks": {
-          "success": "f6919e05-0cb8-44c3-9eea-81adf91e724d"
+          "success": "23c67fbf-324f-47f4-8f17-6f16d10c5ab8"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1460,6 +1484,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -1480,7 +1505,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "f6919e05-0cb8-44c3-9eea-81adf91e724d",
+        "id": "23c67fbf-324f-47f4-8f17-6f16d10c5ab8",
         "position": {
           "x": "4773.0",
           "y": "3638.0"
@@ -1503,13 +1528,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "b81134ee-674e-493c-964d-5094f0d4d196",
+        "id": "731ac70a-df13-4aec-a7f1-28d7d5dd7427",
         "position": {
           "x": "1847.0",
           "y": "3618.0"
         },
         "flowTasks": {
-          "success": "ff2c97ee-ccbd-4643-80f9-c99cd9459b52"
+          "success": "6ab8b966-5234-4173-8ae6-cd0c2a125d77"
         },
         "delayMultiplier": 1.0
       },
@@ -1520,14 +1545,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "ff2c97ee-ccbd-4643-80f9-c99cd9459b52",
+        "id": "6ab8b966-5234-4173-8ae6-cd0c2a125d77",
         "position": {
           "x": "1859.0",
           "y": "3840.0"
         },
         "flowTasks": {
-          "success": "d36f8288-4090-46ba-9ee9-a74edf8539e1",
-          "failure": "a3b662de-740a-4fa2-8941-8c8e04b9c864"
+          "success": "056e7f49-4051-41a2-896f-d9ca03e6b5e9",
+          "failure": "d4547b66-405e-4c74-a749-88ed22062bb0"
         },
         "delayMultiplier": 1.0
       },
@@ -1543,7 +1568,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "d36f8288-4090-46ba-9ee9-a74edf8539e1",
+        "id": "056e7f49-4051-41a2-896f-d9ca03e6b5e9",
         "position": {
           "x": "2313.0",
           "y": "3752.0"
@@ -1561,13 +1586,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "a3b662de-740a-4fa2-8941-8c8e04b9c864",
+        "id": "d4547b66-405e-4c74-a749-88ed22062bb0",
         "position": {
           "x": "2293.0",
           "y": "4102.0"
         },
         "flowTasks": {
-          "success": "576c3e49-2adc-43b3-ac29-9e2f67414e0d"
+          "success": "66ede3b5-7866-4832-b880-22bd016fa230"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1575,6 +1600,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -1595,7 +1621,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "576c3e49-2adc-43b3-ac29-9e2f67414e0d",
+        "id": "66ede3b5-7866-4832-b880-22bd016fa230",
         "position": {
           "x": "2796.0",
           "y": "4321.0"
@@ -1618,13 +1644,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "db0dc924-741c-444c-b353-105f9207700c",
+        "id": "e20d64c2-4c7f-4d0f-ac80-269544da94c5",
         "position": {
           "x": "-49.0",
           "y": "4157.0"
         },
         "flowTasks": {
-          "success": "79f53d93-9052-4773-a0f7-2c84885cf0e9"
+          "success": "921933c2-5e11-4d63-9c66-cac6328a9d41"
         },
         "delayMultiplier": 1.0
       },
@@ -1635,14 +1661,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "79f53d93-9052-4773-a0f7-2c84885cf0e9",
+        "id": "921933c2-5e11-4d63-9c66-cac6328a9d41",
         "position": {
           "x": "501.0",
           "y": "4351.0"
         },
         "flowTasks": {
-          "success": "5058a2ee-e8a4-481f-8604-7cb7369cd09e",
-          "failure": "cbbdf2ab-4436-4c4d-8974-140379e572b6"
+          "success": "87a6f79b-fab4-44b1-b9a7-ba3716489226",
+          "failure": "34cfada6-f156-4c30-8927-135538ce023e"
         },
         "delayMultiplier": 1.0
       },
@@ -1658,7 +1684,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "5058a2ee-e8a4-481f-8604-7cb7369cd09e",
+        "id": "87a6f79b-fab4-44b1-b9a7-ba3716489226",
         "position": {
           "x": "1044.0",
           "y": "4105.0"
@@ -1676,13 +1702,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "cbbdf2ab-4436-4c4d-8974-140379e572b6",
+        "id": "34cfada6-f156-4c30-8927-135538ce023e",
         "position": {
           "x": "974.0",
           "y": "4420.0"
         },
         "flowTasks": {
-          "success": "103889db-aec4-4fe0-9c4a-7acade07712b"
+          "success": "e488e8f5-3ff7-41f1-aa5b-df579e81f70a"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1707,7 +1733,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "103889db-aec4-4fe0-9c4a-7acade07712b",
+        "id": "e488e8f5-3ff7-41f1-aa5b-df579e81f70a",
         "position": {
           "x": "1461.0",
           "y": "4489.0"
@@ -1730,13 +1756,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "ec922a92-fac5-4419-9077-b5caf6d23334",
+        "id": "94e24b36-f410-422a-aa3e-98137868e65e",
         "position": {
           "x": "-36.0",
           "y": "4551.0"
         },
         "flowTasks": {
-          "success": "f7c263ba-b363-4ca2-8028-5d5b11d4422f"
+          "success": "297365bf-752f-4b81-a066-9e3469d34c2c"
         },
         "delayMultiplier": 1.0
       },
@@ -1747,14 +1773,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "f7c263ba-b363-4ca2-8028-5d5b11d4422f",
+        "id": "297365bf-752f-4b81-a066-9e3469d34c2c",
         "position": {
           "x": "481.0",
           "y": "4768.0"
         },
         "flowTasks": {
-          "success": "a8a505f5-07aa-478d-b38e-2f06de97fb5e",
-          "failure": "ac80813a-c944-4648-ba0b-99dcc928fc55"
+          "success": "1dab51cf-9d66-4d4b-8568-b5daa657d3a2",
+          "failure": "b26f22c2-0e4c-4d11-b15e-52393463735b"
         },
         "delayMultiplier": 1.0
       },
@@ -1770,7 +1796,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "a8a505f5-07aa-478d-b38e-2f06de97fb5e",
+        "id": "1dab51cf-9d66-4d4b-8568-b5daa657d3a2",
         "position": {
           "x": "954.0",
           "y": "4787.0"
@@ -1788,13 +1814,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "ac80813a-c944-4648-ba0b-99dcc928fc55",
+        "id": "b26f22c2-0e4c-4d11-b15e-52393463735b",
         "position": {
           "x": "932.0",
           "y": "5126.0"
         },
         "flowTasks": {
-          "success": "5efbd51b-f7ad-4314-ad82-b5951563409f"
+          "success": "c4c9ad45-6e3c-43b8-bdc6-1cd9269bcab3"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1819,7 +1845,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "5efbd51b-f7ad-4314-ad82-b5951563409f",
+        "id": "c4c9ad45-6e3c-43b8-bdc6-1cd9269bcab3",
         "position": {
           "x": "1441.0",
           "y": "4944.0"
@@ -1842,7 +1868,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "92c3f62c-12aa-43a3-86eb-8fb866c67c59",
+        "id": "62d4e928-3939-443a-a18a-5636d702fc76",
         "position": {
           "x": "2941.0",
           "y": "1987.0"
@@ -1858,13 +1884,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "0f667e70-81df-4ca4-a372-56ef259d3bb1",
+        "id": "fde802fd-e75f-43ef-8d06-09132cb4e966",
         "position": {
           "x": "1054.0",
           "y": "1826.0"
         },
         "flowTasks": {
-          "success": "feef8965-7afc-4f60-b1f0-c3987feb6597"
+          "success": "bb8bb602-472f-466e-a6e5-2e91b9728292"
         },
         "delayMultiplier": 1.0
       },
@@ -1875,14 +1901,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "feef8965-7afc-4f60-b1f0-c3987feb6597",
+        "id": "bb8bb602-472f-466e-a6e5-2e91b9728292",
         "position": {
           "x": "1037.0",
           "y": "2156.0"
         },
         "flowTasks": {
-          "success": "dba56d8b-6f88-4829-ba42-6b4b76351dab",
-          "failure": "30da9e8c-d077-43e7-b284-9fbbd9af7355"
+          "success": "196cc112-05db-40c2-b392-eb31029cd0fd",
+          "failure": "801bfe9d-2f7c-4700-aecb-faa2a2c14414"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1903,7 +1929,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "dba56d8b-6f88-4829-ba42-6b4b76351dab",
+        "id": "196cc112-05db-40c2-b392-eb31029cd0fd",
         "position": {
           "x": "1454.0",
           "y": "2062.0"
@@ -1919,14 +1945,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "30da9e8c-d077-43e7-b284-9fbbd9af7355",
+        "id": "801bfe9d-2f7c-4700-aecb-faa2a2c14414",
         "position": {
           "x": "1034.0",
           "y": "2417.0"
         },
         "flowTasks": {
-          "success": "b01ef142-c031-4267-8b02-d0af068cf965",
-          "failure": "5a7bf875-bea3-4e47-91d1-a8057422b731"
+          "success": "7765d3b0-5434-4168-9a2e-73bebe2217bc",
+          "failure": "3e26aeb0-e5b6-49e4-8960-bffb4bfc5177"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1947,14 +1973,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "5a7bf875-bea3-4e47-91d1-a8057422b731",
+        "id": "3e26aeb0-e5b6-49e4-8960-bffb4bfc5177",
         "position": {
           "x": "1017.0",
           "y": "2649.0"
         },
         "flowTasks": {
-          "success": "55917b77-d776-442f-a6ca-8780d70f934f",
-          "failure": "d1e82721-0587-41c8-91af-87d1a92a988b"
+          "success": "5e03cfe5-a527-4879-baf9-b35ee9011863",
+          "failure": "299b1714-91b3-4b99-9bc1-365bf6eec3b6"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -1975,7 +2001,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "b01ef142-c031-4267-8b02-d0af068cf965",
+        "id": "7765d3b0-5434-4168-9a2e-73bebe2217bc",
         "position": {
           "x": "1427.0",
           "y": "2321.0"
@@ -1991,7 +2017,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "55917b77-d776-442f-a6ca-8780d70f934f",
+        "id": "5e03cfe5-a527-4879-baf9-b35ee9011863",
         "position": {
           "x": "1417.0",
           "y": "2631.0"
@@ -2007,13 +2033,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "fe7e3f40-80d3-48be-8895-b5b8d869f977",
+        "id": "ed95a069-9e05-4cca-844f-8078acf17845",
         "position": {
           "x": "482.0",
           "y": "1845.0"
         },
         "flowTasks": {
-          "success": "78ad1eb3-5ca6-4e23-ac85-944d75175dfc"
+          "success": "0b634cf7-cbb2-420a-af1f-cce9d0bcb57d"
         },
         "delayMultiplier": 1.0
       },
@@ -2024,14 +2050,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "78ad1eb3-5ca6-4e23-ac85-944d75175dfc",
+        "id": "0b634cf7-cbb2-420a-af1f-cce9d0bcb57d",
         "position": {
           "x": "498.0",
           "y": "2113.0"
         },
         "flowTasks": {
-          "success": "dba56d8b-6f88-4829-ba42-6b4b76351dab",
-          "failure": "2262c1b8-ffc2-47b7-a833-f30d62ad98c9"
+          "success": "196cc112-05db-40c2-b392-eb31029cd0fd",
+          "failure": "832e540a-e604-4cba-9d94-7ef12352883b"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2052,14 +2078,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "2262c1b8-ffc2-47b7-a833-f30d62ad98c9",
+        "id": "832e540a-e604-4cba-9d94-7ef12352883b",
         "position": {
           "x": "511.0",
           "y": "2423.0"
         },
         "flowTasks": {
-          "success": "b01ef142-c031-4267-8b02-d0af068cf965",
-          "failure": "8ddfe021-60a7-4c43-8892-ea266424c02a"
+          "success": "7765d3b0-5434-4168-9a2e-73bebe2217bc",
+          "failure": "d35b7664-27ce-42db-a92c-be07c910cbb3"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2080,14 +2106,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "8ddfe021-60a7-4c43-8892-ea266424c02a",
+        "id": "d35b7664-27ce-42db-a92c-be07c910cbb3",
         "position": {
           "x": "479.0",
           "y": "2669.0"
         },
         "flowTasks": {
-          "success": "55917b77-d776-442f-a6ca-8780d70f934f",
-          "failure": "1b5255d6-19f7-4e3a-8fc4-a827a36814bf"
+          "success": "5e03cfe5-a527-4879-baf9-b35ee9011863",
+          "failure": "a7387a7a-1e5f-4a62-b907-d0829a6c9160"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2108,14 +2134,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "1b5255d6-19f7-4e3a-8fc4-a827a36814bf",
+        "id": "a7387a7a-1e5f-4a62-b907-d0829a6c9160",
         "position": {
           "x": "486.0",
           "y": "2888.0"
         },
         "flowTasks": {
-          "success": "878c874b-4dbe-46f6-8a9f-3ef1ce2b1360",
-          "failure": "a1390fef-8c2c-4a3d-8301-67e0227778d2"
+          "success": "39bceb8a-1b3a-41bf-be88-40eacc4117db",
+          "failure": "a4316fad-1375-4dae-b5be-0ac5f2795f6d"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2136,14 +2162,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "d1e82721-0587-41c8-91af-87d1a92a988b",
+        "id": "299b1714-91b3-4b99-9bc1-365bf6eec3b6",
         "position": {
           "x": "1029.0",
           "y": "2875.0"
         },
         "flowTasks": {
-          "success": "878c874b-4dbe-46f6-8a9f-3ef1ce2b1360",
-          "failure": "5f475ec3-0f0c-42ac-aa7f-8e754413cfe0"
+          "success": "39bceb8a-1b3a-41bf-be88-40eacc4117db",
+          "failure": "4bba47d3-e520-4c69-8a14-025f48735f5c"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2164,7 +2190,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "878c874b-4dbe-46f6-8a9f-3ef1ce2b1360",
+        "id": "39bceb8a-1b3a-41bf-be88-40eacc4117db",
         "position": {
           "x": "1468.0",
           "y": "2883.0"
@@ -2180,7 +2206,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "ec545ae5-b4ae-4816-ade2-9a8aed16a24c",
+        "id": "b0a04494-7c22-45d2-80fd-8dfe17722ef6",
         "position": {
           "x": "1530.0",
           "y": "3110.0"
@@ -2196,13 +2222,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "4caacbaa-58c9-4969-ab36-a42426539f2a",
+        "id": "c21fe130-5c52-400d-8722-1cc08b2e8ed2",
         "position": {
           "x": "-104.0",
           "y": "1842.0"
         },
         "flowTasks": {
-          "success": "3732abd9-f4f6-4052-af67-6b3d37a231f9"
+          "success": "e2256916-77df-4339-be69-5a1b4d5dfee9"
         },
         "delayMultiplier": 1.0
       },
@@ -2213,14 +2239,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "3732abd9-f4f6-4052-af67-6b3d37a231f9",
+        "id": "e2256916-77df-4339-be69-5a1b4d5dfee9",
         "position": {
           "x": "-99.0",
           "y": "2068.0"
         },
         "flowTasks": {
-          "success": "dba56d8b-6f88-4829-ba42-6b4b76351dab",
-          "failure": "36f4efa4-2961-47bb-967c-cab62d98c7cd"
+          "success": "196cc112-05db-40c2-b392-eb31029cd0fd",
+          "failure": "41535985-0e61-4057-8f13-63fc7cd1f514"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2241,14 +2267,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "36f4efa4-2961-47bb-967c-cab62d98c7cd",
+        "id": "41535985-0e61-4057-8f13-63fc7cd1f514",
         "position": {
           "x": "-84.0",
           "y": "2333.0"
         },
         "flowTasks": {
-          "success": "b01ef142-c031-4267-8b02-d0af068cf965",
-          "failure": "336a0d71-a543-40a8-9e48-a5c265cd6120"
+          "success": "7765d3b0-5434-4168-9a2e-73bebe2217bc",
+          "failure": "e4d1c71e-2ce7-4c01-ba1d-f28bc65c24fb"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2269,14 +2295,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "336a0d71-a543-40a8-9e48-a5c265cd6120",
+        "id": "e4d1c71e-2ce7-4c01-ba1d-f28bc65c24fb",
         "position": {
           "x": "-68.0",
           "y": "2647.0"
         },
         "flowTasks": {
-          "success": "55917b77-d776-442f-a6ca-8780d70f934f",
-          "failure": "45b714f0-2155-44d6-aa8c-c02321a9604e"
+          "success": "5e03cfe5-a527-4879-baf9-b35ee9011863",
+          "failure": "64c7b5d3-ad08-4c42-bb80-a90f6d57d9e0"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2297,14 +2323,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "45b714f0-2155-44d6-aa8c-c02321a9604e",
+        "id": "64c7b5d3-ad08-4c42-bb80-a90f6d57d9e0",
         "position": {
           "x": "-70.0",
           "y": "2874.0"
         },
         "flowTasks": {
-          "success": "878c874b-4dbe-46f6-8a9f-3ef1ce2b1360",
-          "failure": "dd980791-e05b-462f-a0ee-814b6680b7aa"
+          "success": "39bceb8a-1b3a-41bf-be88-40eacc4117db",
+          "failure": "fa794333-9cf0-4fee-bb18-2d99610e02e8"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2325,7 +2351,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "57a7f6c8-7daa-4195-b142-24964976d80d",
+        "id": "7df8a1c7-d111-4f26-b76e-99b2871a9252",
         "position": {
           "x": "2939.0",
           "y": "2297.0"
@@ -2341,14 +2367,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "6fd7a9f8-b294-4552-906c-d26555b3def3",
+        "id": "d71b3eee-f7b7-4f4c-8869-f25fef590ab1",
         "position": {
           "x": "273.0",
           "y": "220.0"
         },
         "flowTasks": {
-          "success": "b4dfac41-93ef-4465-b854-b234f09aa349",
-          "failure": "368f3834-83e8-45ea-8fb3-3eac2b0afc2e"
+          "success": "68fe9034-dd66-43a7-b280-87aba4c97f3f",
+          "failure": "a2623cfa-ff40-447e-90c1-d72f5e9f0c09"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2369,7 +2395,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "b4dfac41-93ef-4465-b854-b234f09aa349",
+        "id": "68fe9034-dd66-43a7-b280-87aba4c97f3f",
         "position": {
           "x": "675.0",
           "y": "10.0"
@@ -2405,14 +2431,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "42298a48-0941-4ee6-b7dd-1a9c9db70650",
+        "id": "e1f9981d-f5ba-4f30-a245-5c4636493340",
         "position": {
           "x": "1605.0",
           "y": "463.0"
         },
         "flowTasks": {
-          "success": "82bdac9d-f0fd-42db-b5e2-2ecfe1134663",
-          "failure": "056e380f-5b32-429b-964e-85d4c8965079"
+          "success": "2c060a26-c09a-4a26-8d3f-abf5e0b3d390",
+          "failure": "f6a1ac80-55d2-4017-9fe1-616287ba3363"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2437,7 +2463,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "82bdac9d-f0fd-42db-b5e2-2ecfe1134663",
+        "id": "2c060a26-c09a-4a26-8d3f-abf5e0b3d390",
         "position": {
           "x": "2380.0",
           "y": "143.0"
@@ -2453,13 +2479,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "f2488c47-0276-42b8-a9f8-91a015705d8a",
+        "id": "f2b26b50-e7d3-494c-8181-387879cdd194",
         "position": {
           "x": "-1504.0",
           "y": "125.0"
         },
         "flowTasks": {
-          "success": "fce24507-c438-49a9-901e-771d0a490228"
+          "success": "46b3bb46-e2be-4aab-a266-2c323352da3a"
         },
         "delayMultiplier": 1.0
       },
@@ -2470,14 +2496,14 @@
     {
       "name": "NpcCondition",
       "base": {
-        "id": "ed4648e7-1b82-48b1-9cc9-2bc8bf213bde",
+        "id": "ec5d3208-b978-4137-a766-aca9d5a090fd",
         "position": {
           "x": "-906.0",
           "y": "489.0"
         },
         "flowTasks": {
-          "success": "2ce2bac1-1e41-4a73-b64f-b8de50dc8213",
-          "failure": "e10e9d43-f8fc-426f-8720-5f845f43d9f3"
+          "success": "a94a764b-33db-4f10-94e1-f8a88b74694e",
+          "failure": "108eff0c-e087-47b2-b235-7af55491538a"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2502,7 +2528,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "2ce2bac1-1e41-4a73-b64f-b8de50dc8213",
+        "id": "a94a764b-33db-4f10-94e1-f8a88b74694e",
         "position": {
           "x": "-430.0",
           "y": "254.0"
@@ -2532,14 +2558,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "7e89f6ff-e7c2-46b2-af83-a1f1edbbee21",
+        "id": "a41e17c0-bcb4-4db7-90c9-7baae4567146",
         "position": {
           "x": "-154.0",
           "y": "873.0"
         },
         "flowTasks": {
-          "success": "3968dda8-f045-4e24-9edb-37900313c103",
-          "failure": "cbacf5b0-e0ab-45dd-8e53-24e37bad0c65"
+          "success": "7fc97d11-c8d8-4105-91e2-33a9db2773c2",
+          "failure": "ab08705b-efbc-488f-a34c-a73b2e5beab8"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2560,14 +2586,14 @@
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "3968dda8-f045-4e24-9edb-37900313c103",
+        "id": "7fc97d11-c8d8-4105-91e2-33a9db2773c2",
         "position": {
           "x": "231.0",
           "y": "803.0"
         },
         "flowTasks": {
-          "success": "de110fd8-384c-4313-b347-2eac6e62b7b0",
-          "failure": "a46123a7-e0a5-4b46-935a-1d670a007fe9"
+          "success": "fb11596d-a4b8-44c6-b71a-871dc0803403",
+          "failure": "558a86ab-fd42-4602-ad4f-88e8868042be"
         },
         "delayMultiplier": 1.0
       },
@@ -2582,14 +2608,14 @@
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "a46123a7-e0a5-4b46-935a-1d670a007fe9",
+        "id": "558a86ab-fd42-4602-ad4f-88e8868042be",
         "position": {
           "x": "691.0",
           "y": "847.0"
         },
         "flowTasks": {
-          "success": "af557b41-8dd9-4f7e-8c0b-c89496730d2d",
-          "failure": "f5289535-7a46-4005-9325-18c49ef371ed"
+          "success": "47ea2a40-9dd4-4f60-9960-3b85b30662fe",
+          "failure": "8ceb1927-f558-4a7a-8268-b4b514579c89"
         },
         "delayMultiplier": 1.0
       },
@@ -2603,7 +2629,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "de110fd8-384c-4313-b347-2eac6e62b7b0",
+        "id": "fb11596d-a4b8-44c6-b71a-871dc0803403",
         "position": {
           "x": "1085.0",
           "y": "649.0"
@@ -2639,7 +2665,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "af557b41-8dd9-4f7e-8c0b-c89496730d2d",
+        "id": "47ea2a40-9dd4-4f60-9960-3b85b30662fe",
         "position": {
           "x": "1635.0",
           "y": "752.0"
@@ -2675,13 +2701,13 @@
     {
       "name": "PlayerCondition",
       "base": {
-        "id": "f5289535-7a46-4005-9325-18c49ef371ed",
+        "id": "8ceb1927-f558-4a7a-8268-b4b514579c89",
         "position": {
           "x": "1351.0",
           "y": "1060.0"
         },
         "flowTasks": {
-          "failure": "af557b41-8dd9-4f7e-8c0b-c89496730d2d"
+          "failure": "47ea2a40-9dd4-4f60-9960-3b85b30662fe"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2700,14 +2726,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "10e8fe7e-1384-44c2-a19d-5574fa795a7d",
+        "id": "a6d86f92-3c3e-47a8-8f42-1ab8a534dee7",
         "position": {
           "x": "250.0",
           "y": "1193.0"
         },
         "flowTasks": {
-          "success": "e27f3196-328e-44f6-a72c-74f7e47881c4",
-          "failure": "5f737c98-0bfe-453d-8716-e496c9dde683"
+          "success": "6d79ab9b-b897-4562-8e83-5464b677cf42",
+          "failure": "a90f64e4-f54a-476e-b6a6-4c37b42133f0"
         },
         "delayMultiplier": 1.0
       },
@@ -2723,14 +2749,14 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "5f737c98-0bfe-453d-8716-e496c9dde683",
+        "id": "a90f64e4-f54a-476e-b6a6-4c37b42133f0",
         "position": {
           "x": "751.0",
           "y": "1389.0"
         },
         "flowTasks": {
-          "success": "b1d2a7e1-4776-4cc5-bcb6-ad46c43ccabb",
-          "failure": "f486668e-c3d5-40da-bd05-6f3ba681e097"
+          "success": "a9fc304b-0189-467d-b52c-eda206cc8949",
+          "failure": "be782b7f-00c8-46be-96af-9cab698e3c41"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2738,6 +2764,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -2758,7 +2785,7 @@
     {
       "name": "KeyboardAction",
       "base": {
-        "id": "fea539eb-d24d-4ab3-b455-1abcdeea9d79",
+        "id": "1304dc06-f06e-480a-ba00-a374fd883ccc",
         "position": {
           "x": "1041.0",
           "y": "1054.0"
@@ -2776,7 +2803,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "f486668e-c3d5-40da-bd05-6f3ba681e097",
+        "id": "be782b7f-00c8-46be-96af-9cab698e3c41",
         "position": {
           "x": "1363.0",
           "y": "1638.0"
@@ -2812,7 +2839,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "b1d2a7e1-4776-4cc5-bcb6-ad46c43ccabb",
+        "id": "a9fc304b-0189-467d-b52c-eda206cc8949",
         "position": {
           "x": "1244.0",
           "y": "1315.0"
@@ -2835,14 +2862,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "cbacf5b0-e0ab-45dd-8e53-24e37bad0c65",
+        "id": "ab08705b-efbc-488f-a34c-a73b2e5beab8",
         "position": {
           "x": "-158.0",
           "y": "1102.0"
         },
         "flowTasks": {
-          "success": "10e8fe7e-1384-44c2-a19d-5574fa795a7d",
-          "failure": "b84ecf3e-e6a1-420b-a406-ac9bde39ff67"
+          "success": "a6d86f92-3c3e-47a8-8f42-1ab8a534dee7",
+          "failure": "d7e366aa-3c58-4fcb-97da-cc78b6476b2c"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2867,14 +2894,14 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "e27f3196-328e-44f6-a72c-74f7e47881c4",
+        "id": "6d79ab9b-b897-4562-8e83-5464b677cf42",
         "position": {
           "x": "664.0",
           "y": "1003.0"
         },
         "flowTasks": {
-          "success": "fea539eb-d24d-4ab3-b455-1abcdeea9d79",
-          "failure": "5f737c98-0bfe-453d-8716-e496c9dde683"
+          "success": "1304dc06-f06e-480a-ba00-a374fd883ccc",
+          "failure": "a90f64e4-f54a-476e-b6a6-4c37b42133f0"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2882,6 +2909,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -2900,14 +2928,14 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "7b1df01b-a453-41b8-8055-486dcfc10d99",
+        "id": "dae5f1de-643d-41de-8548-fee9bfdaa433",
         "position": {
           "x": "-1994.0",
           "y": "2804.0"
         },
         "flowTasks": {
-          "success": "c65a371c-ce36-498b-87ea-07bbd6c161b3",
-          "failure": "0b741c7d-c231-4372-9aca-f3b47d92066a"
+          "success": "21282f63-ce39-4715-9017-bcb7e6538b26",
+          "failure": "465245bc-0bf8-4f13-a93e-c5ca865b215c"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -2915,6 +2943,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -2933,7 +2962,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "0b741c7d-c231-4372-9aca-f3b47d92066a",
+        "id": "465245bc-0bf8-4f13-a93e-c5ca865b215c",
         "position": {
           "x": "-1446.0",
           "y": "2791.0"
@@ -2969,14 +2998,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "c65a371c-ce36-498b-87ea-07bbd6c161b3",
+        "id": "21282f63-ce39-4715-9017-bcb7e6538b26",
         "position": {
           "x": "-2040.0",
           "y": "3172.0"
         },
         "flowTasks": {
-          "success": "8b0fd957-f85e-437e-97d8-a3b27def681e",
-          "failure": "bcb5a604-e719-47bb-8ea0-eb476e827119"
+          "success": "b9b8c897-1001-43f8-8638-f1859361cea4",
+          "failure": "d134d7a2-5f2d-4375-8871-7a321d803054"
         },
         "delayMultiplier": 1.0
       },
@@ -2992,10 +3021,10 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "ec6a289b-accd-4bb3-8cc0-3e06c2bd63da",
+        "id": "81fb37c8-6d74-48f7-9280-029a79bf7d20",
         "position": {
-          "x": "-176.0",
-          "y": "1595.0"
+          "x": "212.0",
+          "y": "1853.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
@@ -3008,7 +3037,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "813123c8-4c38-426b-ad4f-798e3850ea8f",
+        "id": "6480bf98-68b1-4118-b03f-3ebb51b89f1c",
         "position": {
           "x": "2029.0",
           "y": "2582.0"
@@ -3024,13 +3053,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "bcb5a604-e719-47bb-8ea0-eb476e827119",
+        "id": "d134d7a2-5f2d-4375-8871-7a321d803054",
         "position": {
           "x": "-1576.0",
           "y": "3135.0"
         },
         "flowTasks": {
-          "success": "72307475-9447-436a-8393-1fae0d338015"
+          "success": "f9e914b2-f5da-42ca-b28a-d71924494e1d"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3038,6 +3067,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -3058,7 +3088,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "72307475-9447-436a-8393-1fae0d338015",
+        "id": "f9e914b2-f5da-42ca-b28a-d71924494e1d",
         "position": {
           "x": "-1045.0",
           "y": "3138.0"
@@ -3079,13 +3109,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "4e1dcabf-8158-471b-8b7a-ee92695ed4f9",
+        "id": "45eb7731-bdf3-4c0c-927a-1a68a6957d3e",
         "position": {
           "x": "-2079.0",
           "y": "2190.0"
         },
         "flowTasks": {
-          "success": "c4beb093-5431-44e7-839d-325960fc10e3"
+          "success": "25678cee-b505-4f6e-831f-ea3234765286"
         },
         "delayMultiplier": 1.0
       },
@@ -3096,14 +3126,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "8b0fd957-f85e-437e-97d8-a3b27def681e",
+        "id": "b9b8c897-1001-43f8-8638-f1859361cea4",
         "position": {
           "x": "-2030.0",
           "y": "3549.0"
         },
         "flowTasks": {
-          "success": "de1e08da-934b-4a59-9389-f3b2e3670b7a",
-          "failure": "af684101-5031-4347-bed9-46e43d5a5af6"
+          "success": "0ee30a9c-232e-40fc-93ea-f7263ec9dff6",
+          "failure": "0d6414f7-d2b7-452a-a577-3d723ca0f3b2"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3124,14 +3154,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "af684101-5031-4347-bed9-46e43d5a5af6",
+        "id": "0d6414f7-d2b7-452a-a577-3d723ca0f3b2",
         "position": {
           "x": "-2014.0",
           "y": "3808.0"
         },
         "flowTasks": {
-          "success": "f30ef059-9284-4f60-afd5-8d0af86d293d",
-          "failure": "31075460-75c5-40ad-b3e1-90f36bd13d38"
+          "success": "68f7f1f0-f360-4bb9-b728-fcfa88bf51ec",
+          "failure": "585aaac7-3c71-466d-8176-5ccf17c31c28"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3152,7 +3182,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "de1e08da-934b-4a59-9389-f3b2e3670b7a",
+        "id": "0ee30a9c-232e-40fc-93ea-f7263ec9dff6",
         "position": {
           "x": "-1410.0",
           "y": "3634.0"
@@ -3168,7 +3198,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "f30ef059-9284-4f60-afd5-8d0af86d293d",
+        "id": "68f7f1f0-f360-4bb9-b728-fcfa88bf51ec",
         "position": {
           "x": "-1367.0",
           "y": "3810.0"
@@ -3184,14 +3214,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "31075460-75c5-40ad-b3e1-90f36bd13d38",
+        "id": "585aaac7-3c71-466d-8176-5ccf17c31c28",
         "position": {
           "x": "-1998.0",
           "y": "4038.0"
         },
         "flowTasks": {
-          "success": "041afb73-5b59-4809-b195-a851a8b143dc",
-          "failure": "4d453d2b-6aed-462e-9bfa-05075507fe8d"
+          "success": "567e1ee6-1149-4090-93e8-232dd7f0940d",
+          "failure": "05a5a2a5-03bb-4ec7-b4f7-ff489e712c79"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3212,14 +3242,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "4d453d2b-6aed-462e-9bfa-05075507fe8d",
+        "id": "05a5a2a5-03bb-4ec7-b4f7-ff489e712c79",
         "position": {
           "x": "-1992.0",
           "y": "4274.0"
         },
         "flowTasks": {
-          "success": "0fdd4696-50a5-49db-b69a-95e36b50791d",
-          "failure": "92198a9b-1b7e-490b-8317-a85c7e7cbd45"
+          "success": "d336bf42-2226-4d11-b5b9-fd5278328767",
+          "failure": "93fe4757-7c70-4bac-93fb-d17aad049364"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3240,7 +3270,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "041afb73-5b59-4809-b195-a851a8b143dc",
+        "id": "567e1ee6-1149-4090-93e8-232dd7f0940d",
         "position": {
           "x": "-1354.0",
           "y": "4037.0"
@@ -3256,7 +3286,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "0fdd4696-50a5-49db-b69a-95e36b50791d",
+        "id": "d336bf42-2226-4d11-b5b9-fd5278328767",
         "position": {
           "x": "-1359.0",
           "y": "4224.0"
@@ -3272,7 +3302,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "c587ff31-f23d-43ac-a7c5-b12fa525e227",
+        "id": "0bcbf554-334e-4abd-9e1b-6d81c2788f13",
         "position": {
           "x": "-1420.0",
           "y": "4617.0"
@@ -3288,14 +3318,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "92198a9b-1b7e-490b-8317-a85c7e7cbd45",
+        "id": "93fe4757-7c70-4bac-93fb-d17aad049364",
         "position": {
           "x": "-2006.0",
           "y": "4503.0"
         },
         "flowTasks": {
-          "success": "f6284f2f-5d1a-451f-a74a-4ffc58ea632b",
-          "failure": "c587ff31-f23d-43ac-a7c5-b12fa525e227"
+          "success": "8f9c9b9f-45f9-4f94-ad0f-a507550214e4",
+          "failure": "0bcbf554-334e-4abd-9e1b-6d81c2788f13"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3316,7 +3346,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "f6284f2f-5d1a-451f-a74a-4ffc58ea632b",
+        "id": "8f9c9b9f-45f9-4f94-ad0f-a507550214e4",
         "position": {
           "x": "-1396.0",
           "y": "4445.0"
@@ -3332,14 +3362,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "6d9ed1ae-5bad-4fb8-a0ce-e645fd52556c",
+        "id": "d50964b7-2d51-4775-95a9-771d654eef70",
         "position": {
           "x": "2067.0",
           "y": "1004.0"
         },
         "flowTasks": {
-          "success": "e3488042-7ad5-40d6-a04b-b7d0a57768af",
-          "failure": "149411a6-0b72-491c-9241-048386cf6d43"
+          "success": "c91c6dcf-01ed-47df-a816-df0148b0d242",
+          "failure": "808fc769-55e6-4fb2-aa67-3f8648bf1824"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3360,7 +3390,7 @@
     {
       "name": "ResetToStart",
       "base": {
-        "id": "e3488042-7ad5-40d6-a04b-b7d0a57768af",
+        "id": "c91c6dcf-01ed-47df-a816-df0148b0d242",
         "position": {
           "x": "2465.0",
           "y": "1028.0"
@@ -3373,13 +3403,13 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "5f475ec3-0f0c-42ac-aa7f-8e754413cfe0",
+        "id": "4bba47d3-e520-4c69-8a14-025f48735f5c",
         "position": {
           "x": "1043.0",
           "y": "3097.0"
         },
         "flowTasks": {
-          "success": "ec545ae5-b4ae-4816-ade2-9a8aed16a24c"
+          "success": "b0a04494-7c22-45d2-80fd-8dfe17722ef6"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3400,13 +3430,13 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "a1390fef-8c2c-4a3d-8301-67e0227778d2",
+        "id": "a4316fad-1375-4dae-b5be-0ac5f2795f6d",
         "position": {
           "x": "490.0",
           "y": "3119.0"
         },
         "flowTasks": {
-          "success": "ec545ae5-b4ae-4816-ade2-9a8aed16a24c"
+          "success": "b0a04494-7c22-45d2-80fd-8dfe17722ef6"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3427,13 +3457,13 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "dd980791-e05b-462f-a0ee-814b6680b7aa",
+        "id": "fa794333-9cf0-4fee-bb18-2d99610e02e8",
         "position": {
           "x": "-60.0",
           "y": "3124.0"
         },
         "flowTasks": {
-          "success": "ec545ae5-b4ae-4816-ade2-9a8aed16a24c"
+          "success": "b0a04494-7c22-45d2-80fd-8dfe17722ef6"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3454,14 +3484,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "09d490b1-3029-4137-8eab-4c9e43d83d55",
+        "id": "59674011-ae2e-481b-ad55-c134b5507aa0",
         "position": {
           "x": "2001.0",
           "y": "1545.0"
         },
         "flowTasks": {
-          "success": "b6ae8f1a-78ac-4379-971b-6660933be0a4",
-          "failure": "a360fe3f-9a54-4a2f-94e1-33070055857f"
+          "success": "5b63e1d2-3920-4bd0-a6f8-b29b4e9f3478",
+          "failure": "bacc8533-a4c1-486b-8c5c-956840ef6b15"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3486,7 +3516,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "a360fe3f-9a54-4a2f-94e1-33070055857f",
+        "id": "bacc8533-a4c1-486b-8c5c-956840ef6b15",
         "position": {
           "x": "1732.0",
           "y": "1637.0"
@@ -3502,14 +3532,14 @@
     {
       "name": "VarbitCondition",
       "base": {
-        "id": "0708a567-cafa-4c7b-b516-607a2e9f2d75",
+        "id": "747eabfe-c88b-4922-b6f1-b31d125f49b5",
         "position": {
           "x": "2857.0",
           "y": "850.0"
         },
         "flowTasks": {
-          "success": "09d490b1-3029-4137-8eab-4c9e43d83d55",
-          "failure": "2d68cfeb-fa78-4d15-aafe-a91a2bbb4fc1"
+          "success": "59674011-ae2e-481b-ad55-c134b5507aa0",
+          "failure": "92407300-5e5d-4e49-8592-4a9f83463e8b"
         },
         "delayMultiplier": 1.0
       },
@@ -3525,13 +3555,13 @@
     {
       "name": "InterfaceCondition",
       "base": {
-        "id": "2d68cfeb-fa78-4d15-aafe-a91a2bbb4fc1",
+        "id": "92407300-5e5d-4e49-8592-4a9f83463e8b",
         "position": {
           "x": "3410.0",
           "y": "774.0"
         },
         "flowTasks": {
-          "success": "9fa33b46-a9c0-48e2-ad0a-c86085baa158"
+          "success": "e1d5b8d0-d076-464d-b716-b60974c8d879"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3539,6 +3569,7 @@
           "bool1": false,
           "bool2": false,
           "list0": [
+            "Burial set id",
             "Container"
           ],
           "TypeList": [],
@@ -3559,7 +3590,7 @@
     {
       "name": "InterfaceAction",
       "base": {
-        "id": "9fa33b46-a9c0-48e2-ad0a-c86085baa158",
+        "id": "e1d5b8d0-d076-464d-b716-b60974c8d879",
         "position": {
           "x": "4058.0",
           "y": "853.0"
@@ -3582,14 +3613,14 @@
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "d20024e0-b749-4734-b087-c0fbf6103c6f",
+        "id": "9696f7bb-e6df-41f6-aa16-779929e70f91",
         "position": {
           "x": "2132.0",
           "y": "820.0"
         },
         "flowTasks": {
-          "success": "e9f94d63-3efe-47a5-9c21-70fe230ebb82",
-          "failure": "6d9ed1ae-5bad-4fb8-a0ce-e645fd52556c"
+          "success": "25a8e9f4-1d4e-408f-97c8-0b57ce76aa58",
+          "failure": "d50964b7-2d51-4775-95a9-771d654eef70"
         },
         "delayMultiplier": 1.0
       },
@@ -3603,10 +3634,10 @@
     {
       "name": "StopAction",
       "base": {
-        "id": "e9f94d63-3efe-47a5-9c21-70fe230ebb82",
+        "id": "b302d1c0-df5f-4f05-b722-1c3588576e2a",
         "position": {
-          "x": "2614.0",
-          "y": "779.0"
+          "x": "2910.0",
+          "y": "683.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
@@ -3615,14 +3646,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "b84ecf3e-e6a1-420b-a406-ac9bde39ff67",
+        "id": "d7e366aa-3c58-4fcb-97da-cc78b6476b2c",
         "position": {
           "x": "-155.0",
           "y": "1350.0"
         },
         "flowTasks": {
-          "success": "10e8fe7e-1384-44c2-a19d-5574fa795a7d",
-          "failure": "ec6a289b-accd-4bb3-8cc0-3e06c2bd63da"
+          "success": "a6d86f92-3c3e-47a8-8f42-1ab8a534dee7",
+          "failure": "42f0c680-801a-471f-b519-33e24034b71d"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3643,7 +3674,7 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "4e7bf6b8-c128-4e6e-91d8-3c47b963e419",
+        "id": "47e85dfa-ee4b-4de7-ad79-3a8b4ce3ce3f",
         "position": {
           "x": "4741.0",
           "y": "3378.0"
@@ -3659,14 +3690,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "c4beb093-5431-44e7-839d-325960fc10e3",
+        "id": "25678cee-b505-4f6e-831f-ea3234765286",
         "position": {
           "x": "-2028.0",
           "y": "2550.0"
         },
         "flowTasks": {
-          "success": "bffd5488-29f5-428f-a715-0c747401d1a7",
-          "failure": "7b1df01b-a453-41b8-8055-486dcfc10d99"
+          "success": "9c08d88e-bb17-4c0a-8b76-2a7b6291d451",
+          "failure": "dae5f1de-643d-41de-8548-fee9bfdaa433"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3687,7 +3718,7 @@
     {
       "name": "ResetToStart",
       "base": {
-        "id": "bffd5488-29f5-428f-a715-0c747401d1a7",
+        "id": "9c08d88e-bb17-4c0a-8b76-2a7b6291d451",
         "position": {
           "x": "-1539.0",
           "y": "2523.0"
@@ -3700,14 +3731,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "f53841f6-4003-47c6-8fb6-cf0c2d69df77",
+        "id": "5ed8c444-f8e7-4d90-ad32-e75ae56fda94",
         "position": {
           "x": "1160.0",
           "y": "442.0"
         },
         "flowTasks": {
-          "success": "ce972309-8b6e-434c-8fcf-026de2a625a4",
-          "failure": "42298a48-0941-4ee6-b7dd-1a9c9db70650"
+          "success": "af91742b-050a-46d2-bb59-217d71dea142",
+          "failure": "e1f9981d-f5ba-4f30-a245-5c4636493340"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3729,14 +3760,14 @@
     {
       "name": "StatusCondition",
       "base": {
-        "id": "872094cc-9e56-49bc-a856-10ba6f774bd6",
+        "id": "10855679-37b0-4414-9791-b9c3a71eae0f",
         "position": {
           "x": "1691.0",
           "y": "187.0"
         },
         "flowTasks": {
-          "success": "24e8ff8a-4ed3-449e-90a4-e097a67d5907",
-          "failure": "42298a48-0941-4ee6-b7dd-1a9c9db70650"
+          "success": "5b7281a3-36c0-4bd7-b5c9-d9ab46954e50",
+          "failure": "e1f9981d-f5ba-4f30-a245-5c4636493340"
         },
         "delayMultiplier": 1.0
       },
@@ -3749,7 +3780,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "24e8ff8a-4ed3-449e-90a4-e097a67d5907",
+        "id": "5b7281a3-36c0-4bd7-b5c9-d9ab46954e50",
         "position": {
           "x": "2072.0",
           "y": "31.0"
@@ -3781,14 +3812,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "e10e9d43-f8fc-426f-8720-5f845f43d9f3",
+        "id": "108eff0c-e087-47b2-b235-7af55491538a",
         "position": {
           "x": "-463.0",
           "y": "571.0"
         },
         "flowTasks": {
-          "success": "3c3730bf-6f12-4938-b57c-1b56f0ba0b55",
-          "failure": "7e89f6ff-e7c2-46b2-af83-a1f1edbbee21"
+          "success": "86966477-69e9-4293-818d-5a698b0edaa9",
+          "failure": "a41e17c0-bcb4-4db7-90c9-7baae4567146"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3810,14 +3841,14 @@
     {
       "name": "StatusCondition",
       "base": {
-        "id": "8f921694-4a74-42a2-a9fd-fe57598e2297",
+        "id": "2009f985-058e-4297-9809-88aea6d7b168",
         "position": {
           "x": "-822.0",
           "y": "1028.0"
         },
         "flowTasks": {
-          "success": "6759a2ee-e4a9-4e06-add8-ed014fe58e1d",
-          "failure": "7e89f6ff-e7c2-46b2-af83-a1f1edbbee21"
+          "success": "7ee3750f-1627-45d7-bc1f-a4861eec966e",
+          "failure": "a41e17c0-bcb4-4db7-90c9-7baae4567146"
         },
         "delayMultiplier": 1.0
       },
@@ -3830,7 +3861,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "6759a2ee-e4a9-4e06-add8-ed014fe58e1d",
+        "id": "7ee3750f-1627-45d7-bc1f-a4861eec966e",
         "position": {
           "x": "-433.0",
           "y": "1002.0"
@@ -3862,14 +3893,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "ce972309-8b6e-434c-8fcf-026de2a625a4",
+        "id": "af91742b-050a-46d2-bb59-217d71dea142",
         "position": {
           "x": "1287.0",
           "y": "204.0"
         },
         "flowTasks": {
-          "success": "76dde0fe-0f4d-457f-ac1c-8c9c8e1e3d5d",
-          "failure": "872094cc-9e56-49bc-a856-10ba6f774bd6"
+          "success": "348ba306-a9dd-42fe-8fa6-0fc4a5b204ef",
+          "failure": "10855679-37b0-4414-9791-b9c3a71eae0f"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3890,7 +3921,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "76dde0fe-0f4d-457f-ac1c-8c9c8e1e3d5d",
+        "id": "348ba306-a9dd-42fe-8fa6-0fc4a5b204ef",
         "position": {
           "x": "1579.0",
           "y": "-227.0"
@@ -3922,14 +3953,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "3c3730bf-6f12-4938-b57c-1b56f0ba0b55",
+        "id": "86966477-69e9-4293-818d-5a698b0edaa9",
         "position": {
           "x": "-775.0",
           "y": "811.0"
         },
         "flowTasks": {
-          "success": "6b83c5ba-1ed7-4c64-93c0-01aee20fe23e",
-          "failure": "8f921694-4a74-42a2-a9fd-fe57598e2297"
+          "success": "94f15620-76b7-4537-92f5-b2f927716c9e",
+          "failure": "2009f985-058e-4297-9809-88aea6d7b168"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -3950,7 +3981,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "6b83c5ba-1ed7-4c64-93c0-01aee20fe23e",
+        "id": "94f15620-76b7-4537-92f5-b2f927716c9e",
         "position": {
           "x": "0.0",
           "y": "564.0"
@@ -3982,14 +4013,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "fce24507-c438-49a9-901e-771d0a490228",
+        "id": "46b3bb46-e2be-4aab-a266-2c323352da3a",
         "position": {
           "x": "-1386.0",
           "y": "445.0"
         },
         "flowTasks": {
-          "success": "bb117f08-b881-45c3-94e8-6d4c16102703",
-          "failure": "ed4648e7-1b82-48b1-9cc9-2bc8bf213bde"
+          "success": "c790b76f-e998-4062-8402-253fbb9dd826",
+          "failure": "ec5d3208-b978-4137-a766-aca9d5a090fd"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -4010,7 +4041,7 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "bb117f08-b881-45c3-94e8-6d4c16102703",
+        "id": "c790b76f-e998-4062-8402-253fbb9dd826",
         "position": {
           "x": "-968.0",
           "y": "116.0"
@@ -4041,6 +4072,72 @@
           "Deposit"
         ],
         "ActionRegex": true
+      }
+    },
+    {
+      "name": "SkillCondition",
+      "base": {
+        "id": "42f0c680-801a-471f-b519-33e24034b71d",
+        "position": {
+          "x": "-154.0",
+          "y": "1563.0"
+        },
+        "flowTasks": {
+          "success": "64081b2e-a55f-49b0-8bf3-736f3bf138c1",
+          "failure": "81fb37c8-6d74-48f7-9280-029a79bf7d20"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Comparator": "Target level",
+        "Condition": "Equals",
+        "Type": "Smithing"
+      }
+    },
+    {
+      "name": "NotificationModule",
+      "base": {
+        "id": "64081b2e-a55f-49b0-8bf3-736f3bf138c1",
+        "position": {
+          "x": "280.0",
+          "y": "1608.0"
+        },
+        "flowTasks": {
+          "success": "8b64fb88-7fb5-43ab-80a4-a8347a395921"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "Target level achieved"
+      }
+    },
+    {
+      "name": "StopAction",
+      "base": {
+        "id": "8b64fb88-7fb5-43ab-80a4-a8347a395921",
+        "position": {
+          "x": "781.0",
+          "y": "1730.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      }
+    },
+    {
+      "name": "NotificationModule",
+      "base": {
+        "id": "25a8e9f4-1d4e-408f-97c8-0b57ce76aa58",
+        "position": {
+          "x": "2470.0",
+          "y": "754.0"
+        },
+        "flowTasks": {
+          "success": "b302d1c0-df5f-4f05-b722-1c3588576e2a"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Value": "out of bars"
       }
     }
   ],
