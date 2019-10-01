@@ -64,19 +64,29 @@
       "name": "1",
       "value": "1.",
       "type": "STRING"
+    },
+    {
+      "name": "Purify",
+      "value": "",
+      "type": "CHECKPOINT"
+    },
+    {
+      "name": "20",
+      "value": "20",
+      "type": "NUMBER"
     }
   ],
   "NodeCollection": [
     {
       "name": "StartCondition",
       "base": {
-        "id": "5e9d54bd-9140-4634-8144-e5a0f2e78955",
+        "id": "8e70ece2-b389-4146-8e7f-6c1425f400c7",
         "position": {
-          "x": "63.0",
-          "y": "71.0"
+          "x": "0.0",
+          "y": "0.0"
         },
         "flowTasks": {
-          "success": "30be1072-6d80-4465-af46-cb6fdee38120"
+          "success": "d583ac2c-4985-4f67-ae2f-771acdb47dac"
         },
         "delayMultiplier": 1.0
       },
@@ -89,14 +99,14 @@
     {
       "name": "InventoryCondition",
       "base": {
-        "id": "7e1b7770-3805-4514-b2af-ebe549ac8bb9",
+        "id": "e3b232c8-9f4e-4d75-a081-8f826d1b4b80",
         "position": {
-          "x": "850.0",
-          "y": "384.0"
+          "x": "787.0",
+          "y": "313.0"
         },
         "flowTasks": {
-          "success": "e7cc5081-20c2-4246-86d7-3651b9e892be",
-          "failure": "cf2418c9-6ff5-489b-a386-50d7ef00cfcc"
+          "success": "5cec33a4-3448-459a-93d5-9ebe9f965529",
+          "failure": "1c7e2c7a-e34c-457b-990a-b09c90f25ffc"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -117,14 +127,14 @@
     {
       "name": "CalculationCondition",
       "base": {
-        "id": "30be1072-6d80-4465-af46-cb6fdee38120",
+        "id": "d583ac2c-4985-4f67-ae2f-771acdb47dac",
         "position": {
-          "x": "299.0",
-          "y": "323.0"
+          "x": "236.0",
+          "y": "252.0"
         },
         "flowTasks": {
-          "success": "7e1b7770-3805-4514-b2af-ebe549ac8bb9",
-          "failure": "09e2d32d-e617-4bde-8a31-d851d166a042"
+          "success": "e3b232c8-9f4e-4d75-a081-8f826d1b4b80",
+          "failure": "3b06e5fd-e65c-469d-a0e9-cacde5786a1d"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -139,27 +149,29 @@
         }
       },
       "variables": {
-        "Values": [],
+        "Values": [
+          "20"
+        ],
         "ValueRegex": false,
         "Comparators": [
           "Nexus"
         ],
         "CompRegex": false,
-        "Condition": "Visible",
+        "Condition": "Distance to (\u003c)",
         "Type": "Game Object"
       }
     },
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "4d572bc5-bf7a-4dfb-9984-b184327497dc",
+        "id": "0f551a4b-3bfd-4aaf-8d7c-3754425e781f",
         "position": {
-          "x": "1697.0",
-          "y": "136.0"
+          "x": "1634.0",
+          "y": "65.0"
         },
         "flowTasks": {
-          "success": "d5a55041-bf6e-496a-9b42-acc03ace86b3",
-          "failure": "e70d48e0-cfb4-4eb2-b18f-c0f0c5d6d251"
+          "success": "096da5fb-06c0-4c7f-bcb8-5ed9d6490b19",
+          "failure": "a891084b-7e9d-4e14-a16b-165df9f4fcc4"
         },
         "delayMultiplier": 1.0
       },
@@ -173,10 +185,10 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "e70d48e0-cfb4-4eb2-b18f-c0f0c5d6d251",
+        "id": "a891084b-7e9d-4e14-a16b-165df9f4fcc4",
         "position": {
-          "x": "2086.0",
-          "y": "221.0"
+          "x": "2023.0",
+          "y": "150.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0,
@@ -209,10 +221,10 @@
     {
       "name": "CheckpointEndTask",
       "base": {
-        "id": "d5a55041-bf6e-496a-9b42-acc03ace86b3",
+        "id": "096da5fb-06c0-4c7f-bcb8-5ed9d6490b19",
         "position": {
-          "x": "2091.0",
-          "y": "8.0"
+          "x": "2028.0",
+          "y": "-63.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
@@ -225,13 +237,13 @@
     {
       "name": "CheckpointStart",
       "base": {
-        "id": "7d2d051f-b2bc-439b-a96e-5559455be217",
+        "id": "1b7193b4-4702-4a68-a3c1-7ce099b4934f",
         "position": {
-          "x": "55.0",
-          "y": "839.0"
+          "x": "-8.0",
+          "y": "768.0"
         },
         "flowTasks": {
-          "success": "a830464a-5e66-40eb-8fc7-79af38781749"
+          "success": "b456c45a-1779-45b7-bb9d-df28eb45d149"
         },
         "delayMultiplier": 1.0
       },
@@ -242,10 +254,10 @@
     {
       "name": "ResetToStart",
       "base": {
-        "id": "13a99ef5-b5a4-4b23-9742-56444e3df343",
+        "id": "36bdba22-6a44-497a-97ac-131fc7ce2d36",
         "position": {
-          "x": "869.0",
-          "y": "1030.0"
+          "x": "806.0",
+          "y": "959.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
@@ -255,13 +267,13 @@
     {
       "name": "PlayerCondition",
       "base": {
-        "id": "7c92abed-7ca2-4c92-8efb-47c466c03792",
+        "id": "7e138546-c140-4a0c-88df-3cbd93bdb099",
         "position": {
-          "x": "774.0",
-          "y": "1278.0"
+          "x": "711.0",
+          "y": "1207.0"
         },
         "flowTasks": {
-          "failure": "7373b2aa-4b0d-4ab1-b837-9faafcf8f48a"
+          "failure": "22f8ad27-ecaa-49d9-b038-7511c1e1916a"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -280,10 +292,10 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "e3b3f256-996f-44f9-a073-7684a981036a",
+        "id": "61b2ec38-89a7-4713-a2c3-28695c6592f4",
         "position": {
-          "x": "1304.0",
-          "y": "1257.0"
+          "x": "1241.0",
+          "y": "1186.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0,
@@ -293,7 +305,7 @@
           "bool2": false,
           "bool3": false,
           "list3": [
-            "Purify"
+            ""
           ],
           "TypeList": [],
           "within": "",
@@ -316,16 +328,16 @@
     {
       "name": "TraversalAction",
       "base": {
-        "id": "09e2d32d-e617-4bde-8a31-d851d166a042",
+        "id": "3b06e5fd-e65c-469d-a0e9-cacde5786a1d",
         "position": {
-          "x": "800.0",
-          "y": "676.0"
+          "x": "737.0",
+          "y": "605.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
       },
       "variables": {
-        "Condition": "To area:",
+        "Condition": "To coordinates:",
         "Coordinates": [
           "nexus loc"
         ],
@@ -335,13 +347,13 @@
     {
       "name": "PlayerCondition",
       "base": {
-        "id": "e7cc5081-20c2-4246-86d7-3651b9e892be",
+        "id": "5cec33a4-3448-459a-93d5-9ebe9f965529",
         "position": {
-          "x": "1227.0",
-          "y": "181.0"
+          "x": "1164.0",
+          "y": "110.0"
         },
         "flowTasks": {
-          "failure": "4d572bc5-bf7a-4dfb-9984-b184327497dc"
+          "failure": "0f551a4b-3bfd-4aaf-8d7c-3754425e781f"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -360,14 +372,14 @@
     {
       "name": "ChatBoxCondition",
       "base": {
-        "id": "a830464a-5e66-40eb-8fc7-79af38781749",
+        "id": "b456c45a-1779-45b7-bb9d-df28eb45d149",
         "position": {
-          "x": "375.0",
-          "y": "1137.0"
+          "x": "312.0",
+          "y": "1066.0"
         },
         "flowTasks": {
-          "success": "13a99ef5-b5a4-4b23-9742-56444e3df343",
-          "failure": "7c92abed-7ca2-4c92-8efb-47c466c03792"
+          "success": "36bdba22-6a44-497a-97ac-131fc7ce2d36",
+          "failure": "7e138546-c140-4a0c-88df-3cbd93bdb099"
         },
         "delayMultiplier": 1.0
       },
@@ -381,13 +393,13 @@
     {
       "name": "PlayerCondition",
       "base": {
-        "id": "7373b2aa-4b0d-4ab1-b837-9faafcf8f48a",
+        "id": "22f8ad27-ecaa-49d9-b038-7511c1e1916a",
         "position": {
-          "x": "782.0",
-          "y": "1486.0"
+          "x": "719.0",
+          "y": "1415.0"
         },
         "flowTasks": {
-          "failure": "e3b3f256-996f-44f9-a073-7684a981036a"
+          "failure": "61b2ec38-89a7-4713-a2c3-28695c6592f4"
         },
         "delayMultiplier": 1.0,
         "queryData": {
@@ -406,14 +418,14 @@
     {
       "name": "ChatDialogCondition",
       "base": {
-        "id": "cf2418c9-6ff5-489b-a386-50d7ef00cfcc",
+        "id": "1c7e2c7a-e34c-457b-990a-b09c90f25ffc",
         "position": {
-          "x": "1229.0",
-          "y": "603.0"
+          "x": "1166.0",
+          "y": "532.0"
         },
         "flowTasks": {
-          "success": "96d502b4-482f-403c-b0fa-0ea384c1910e",
-          "failure": "5f242c76-5020-45d1-bc5a-bc0e2d122fc6"
+          "success": "e30efbe7-7c05-4695-bcf9-fc97542c7fb1",
+          "failure": "d9cb9fcd-ab3a-46e5-80c6-30e131829a1f"
         },
         "delayMultiplier": 1.0
       },
@@ -427,10 +439,10 @@
     {
       "name": "InteractionAction",
       "base": {
-        "id": "29cc9de9-2b93-4e40-85c2-bae44f41856f",
+        "id": "3d187928-ce53-4d5c-8cf1-ac774b384116",
         "position": {
-          "x": "1968.0",
-          "y": "898.0"
+          "x": "1905.0",
+          "y": "827.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0,
@@ -457,10 +469,10 @@
     {
       "name": "ChatDialogAction",
       "base": {
-        "id": "96d502b4-482f-403c-b0fa-0ea384c1910e",
+        "id": "e30efbe7-7c05-4695-bcf9-fc97542c7fb1",
         "position": {
-          "x": "1619.0",
-          "y": "418.0"
+          "x": "1556.0",
+          "y": "347.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
@@ -475,14 +487,14 @@
     {
       "name": "ChatDialogCondition",
       "base": {
-        "id": "5f242c76-5020-45d1-bc5a-bc0e2d122fc6",
+        "id": "d9cb9fcd-ab3a-46e5-80c6-30e131829a1f",
         "position": {
-          "x": "1515.0",
-          "y": "806.0"
+          "x": "1452.0",
+          "y": "735.0"
         },
         "flowTasks": {
-          "success": "cb1e407a-45a7-4bc3-a904-783f8d05c998",
-          "failure": "29cc9de9-2b93-4e40-85c2-bae44f41856f"
+          "success": "81369781-acac-44df-9f61-cc8675c2f8fb",
+          "failure": "3d187928-ce53-4d5c-8cf1-ac774b384116"
         },
         "delayMultiplier": 1.0
       },
@@ -496,10 +508,10 @@
     {
       "name": "ChatDialogAction",
       "base": {
-        "id": "cb1e407a-45a7-4bc3-a904-783f8d05c998",
+        "id": "81369781-acac-44df-9f61-cc8675c2f8fb",
         "position": {
-          "x": "1996.0",
-          "y": "632.0"
+          "x": "1933.0",
+          "y": "561.0"
         },
         "flowTasks": {},
         "delayMultiplier": 1.0
