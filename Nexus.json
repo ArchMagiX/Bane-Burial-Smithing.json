@@ -74,6 +74,11 @@
       "name": "20",
       "value": "20",
       "type": "NUMBER"
+    },
+    {
+      "name": "Finished",
+      "value": "You have already stemmed",
+      "type": "STRING"
     }
   ],
   "NodeCollection": [
@@ -82,11 +87,11 @@
       "base": {
         "id": "8e70ece2-b389-4146-8e7f-6c1425f400c7",
         "position": {
-          "x": "0.0",
-          "y": "0.0"
+          "x": "-401.0",
+          "y": "-40.0"
         },
         "flowTasks": {
-          "success": "d583ac2c-4985-4f67-ae2f-771acdb47dac"
+          "success": "ac82edca-ef85-442e-80f5-19ffe0881b50"
         },
         "delayMultiplier": 1.0
       },
@@ -243,7 +248,7 @@
           "y": "768.0"
         },
         "flowTasks": {
-          "success": "b456c45a-1779-45b7-bb9d-df28eb45d149"
+          "success": "e399b7e1-a288-49f3-80fb-72983cef21c5"
         },
         "delayMultiplier": 1.0
       },
@@ -374,8 +379,8 @@
       "base": {
         "id": "b456c45a-1779-45b7-bb9d-df28eb45d149",
         "position": {
-          "x": "312.0",
-          "y": "1066.0"
+          "x": "361.0",
+          "y": "1078.0"
         },
         "flowTasks": {
           "success": "36bdba22-6a44-497a-97ac-131fc7ce2d36",
@@ -521,6 +526,60 @@
           "Yes"
         ],
         "ItemRegex": false
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "e399b7e1-a288-49f3-80fb-72983cef21c5",
+        "position": {
+          "x": "-50.0",
+          "y": "1022.0"
+        },
+        "flowTasks": {
+          "success": "fef1c824-0939-46f8-a118-4035388cd319",
+          "failure": "b456c45a-1779-45b7-bb9d-df28eb45d149"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Finished"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "ac82edca-ef85-442e-80f5-19ffe0881b50",
+        "position": {
+          "x": "-197.0",
+          "y": "299.0"
+        },
+        "flowTasks": {
+          "success": "fef1c824-0939-46f8-a118-4035388cd319",
+          "failure": "d583ac2c-4985-4f67-ae2f-771acdb47dac"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Finished"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "StopAction",
+      "base": {
+        "id": "fef1c824-0939-46f8-a118-4035388cd319",
+        "position": {
+          "x": "308.0",
+          "y": "690.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
       }
     }
   ],
