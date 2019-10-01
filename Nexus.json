@@ -1,0 +1,522 @@
+{
+  "Variables": [
+    {
+      "name": "Charmed sack",
+      "value": "Charmed sack",
+      "type": "SPRITE_ITEM"
+    },
+    {
+      "name": "Nexus",
+      "value": "Nexus",
+      "type": "GO"
+    },
+    {
+      "name": "collect",
+      "value": "Collect from",
+      "type": "ACTION"
+    },
+    {
+      "name": "full",
+      "value": "The sack is full.",
+      "type": "STRING"
+    },
+    {
+      "name": "Purify",
+      "value": "Purify",
+      "type": "ACTION"
+    },
+    {
+      "name": "empty",
+      "value": "You do not have any corruption",
+      "type": "STRING"
+    },
+    {
+      "name": "bowl",
+      "value": "Purification",
+      "type": "GO"
+    },
+    {
+      "name": "nexus loc",
+      "value": "Coordinate(3218, 3182, 0)",
+      "type": "COORDINATE"
+    },
+    {
+      "name": "space",
+      "value": " ",
+      "type": "STRING"
+    },
+    {
+      "name": "Ysondria",
+      "value": "Ysondria",
+      "type": "NPC"
+    },
+    {
+      "name": "Get Sack",
+      "value": "Get charmed sack",
+      "type": "ACTION"
+    },
+    {
+      "name": "Yes",
+      "value": "Yes.",
+      "type": "STRING"
+    },
+    {
+      "name": "1",
+      "value": "1.",
+      "type": "STRING"
+    }
+  ],
+  "NodeCollection": [
+    {
+      "name": "StartCondition",
+      "base": {
+        "id": "5e9d54bd-9140-4634-8144-e5a0f2e78955",
+        "position": {
+          "x": "63.0",
+          "y": "71.0"
+        },
+        "flowTasks": {
+          "success": "30be1072-6d80-4465-af46-cb6fdee38120"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "GameMode": "RS3",
+        "IntervalLow": 745.6435443911201,
+        "IntervalHigh": 1645.643544391121
+      }
+    },
+    {
+      "name": "InventoryCondition",
+      "base": {
+        "id": "7e1b7770-3805-4514-b2af-ebe549ac8bb9",
+        "position": {
+          "x": "850.0",
+          "y": "384.0"
+        },
+        "flowTasks": {
+          "success": "e7cc5081-20c2-4246-86d7-3651b9e892be",
+          "failure": "cf2418c9-6ff5-489b-a386-50d7ef00cfcc"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "type": "InventoryQuery"
+        }
+      },
+      "variables": {
+        "ItemValues": [
+          "Charmed sack"
+        ],
+        "ItemRegex": false,
+        "Condition": "Contains any of:"
+      }
+    },
+    {
+      "name": "CalculationCondition",
+      "base": {
+        "id": "30be1072-6d80-4465-af46-cb6fdee38120",
+        "position": {
+          "x": "299.0",
+          "y": "323.0"
+        },
+        "flowTasks": {
+          "success": "7e1b7770-3805-4514-b2af-ebe549ac8bb9",
+          "failure": "09e2d32d-e617-4bde-8a31-d851d166a042"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Comparators": [
+          "Nexus"
+        ],
+        "CompRegex": false,
+        "Condition": "Visible",
+        "Type": "Game Object"
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "4d572bc5-bf7a-4dfb-9984-b184327497dc",
+        "position": {
+          "x": "1697.0",
+          "y": "136.0"
+        },
+        "flowTasks": {
+          "success": "d5a55041-bf6e-496a-9b42-acc03ace86b3",
+          "failure": "e70d48e0-cfb4-4eb2-b18f-c0f0c5d6d251"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "full"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "e70d48e0-cfb4-4eb2-b18f-c0f0c5d6d251",
+        "position": {
+          "x": "2086.0",
+          "y": "221.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Collect from"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "Nexus"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "collect"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "CheckpointEndTask",
+      "base": {
+        "id": "d5a55041-bf6e-496a-9b42-acc03ace86b3",
+        "position": {
+          "x": "2091.0",
+          "y": "8.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Checkpoint name": "Purify",
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "CheckpointStart",
+      "base": {
+        "id": "7d2d051f-b2bc-439b-a96e-5559455be217",
+        "position": {
+          "x": "55.0",
+          "y": "839.0"
+        },
+        "flowTasks": {
+          "success": "a830464a-5e66-40eb-8fc7-79af38781749"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "CheckpointTask name": "Purify"
+      }
+    },
+    {
+      "name": "ResetToStart",
+      "base": {
+        "id": "13a99ef5-b5a4-4b23-9742-56444e3df343",
+        "position": {
+          "x": "869.0",
+          "y": "1030.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {}
+    },
+    {
+      "name": "PlayerCondition",
+      "base": {
+        "id": "7c92abed-7ca2-4c92-8efb-47c466c03792",
+        "position": {
+          "x": "774.0",
+          "y": "1278.0"
+        },
+        "flowTasks": {
+          "failure": "7373b2aa-4b0d-4ab1-b837-9faafcf8f48a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "within": "",
+          "MinLvl": "",
+          "MaxLvl": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Condition": "Is animating (2s delay):"
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "e3b3f256-996f-44f9-a073-7684a981036a",
+        "position": {
+          "x": "1304.0",
+          "y": "1257.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "bool0": false,
+          "bool1": false,
+          "bool2": false,
+          "bool3": false,
+          "list3": [
+            "Purify"
+          ],
+          "TypeList": [],
+          "within": "",
+          "results": "",
+          "type": "GOQuery"
+        }
+      },
+      "variables": {
+        "Condition": "GameObject",
+        "ItemValues": [
+          "bowl"
+        ],
+        "ItemRegex": true,
+        "ActionValues": [
+          "Purify"
+        ],
+        "ActionRegex": true
+      }
+    },
+    {
+      "name": "TraversalAction",
+      "base": {
+        "id": "09e2d32d-e617-4bde-8a31-d851d166a042",
+        "position": {
+          "x": "800.0",
+          "y": "676.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Condition": "To area:",
+        "Coordinates": [
+          "nexus loc"
+        ],
+        "Exact": false
+      }
+    },
+    {
+      "name": "PlayerCondition",
+      "base": {
+        "id": "e7cc5081-20c2-4246-86d7-3651b9e892be",
+        "position": {
+          "x": "1227.0",
+          "y": "181.0"
+        },
+        "flowTasks": {
+          "failure": "4d572bc5-bf7a-4dfb-9984-b184327497dc"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "within": "",
+          "MinLvl": "",
+          "MaxLvl": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Condition": "Is animating (2s delay):"
+      }
+    },
+    {
+      "name": "ChatBoxCondition",
+      "base": {
+        "id": "a830464a-5e66-40eb-8fc7-79af38781749",
+        "position": {
+          "x": "375.0",
+          "y": "1137.0"
+        },
+        "flowTasks": {
+          "success": "13a99ef5-b5a4-4b23-9742-56444e3df343",
+          "failure": "7c92abed-7ca2-4c92-8efb-47c466c03792"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "empty"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "PlayerCondition",
+      "base": {
+        "id": "7373b2aa-4b0d-4ab1-b837-9faafcf8f48a",
+        "position": {
+          "x": "782.0",
+          "y": "1486.0"
+        },
+        "flowTasks": {
+          "failure": "e3b3f256-996f-44f9-a073-7684a981036a"
+        },
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "within": "",
+          "MinLvl": "",
+          "MaxLvl": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Values": [],
+        "ValueRegex": false,
+        "Condition": "Is moving:"
+      }
+    },
+    {
+      "name": "ChatDialogCondition",
+      "base": {
+        "id": "cf2418c9-6ff5-489b-a386-50d7ef00cfcc",
+        "position": {
+          "x": "1229.0",
+          "y": "603.0"
+        },
+        "flowTasks": {
+          "success": "96d502b4-482f-403c-b0fa-0ea384c1910e",
+          "failure": "5f242c76-5020-45d1-bc5a-bc0e2d122fc6"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "space"
+        ],
+        "ItemRegex": true
+      }
+    },
+    {
+      "name": "InteractionAction",
+      "base": {
+        "id": "29cc9de9-2b93-4e40-85c2-bae44f41856f",
+        "position": {
+          "x": "1968.0",
+          "y": "898.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0,
+        "queryData": {
+          "list4": [
+            "Get charmed sack"
+          ],
+          "within": "",
+          "type": "NpcQuery"
+        }
+      },
+      "variables": {
+        "Condition": "Npc",
+        "ItemValues": [
+          "Ysondria"
+        ],
+        "ItemRegex": false,
+        "ActionValues": [
+          "Get Sack"
+        ],
+        "ActionRegex": false
+      }
+    },
+    {
+      "name": "ChatDialogAction",
+      "base": {
+        "id": "96d502b4-482f-403c-b0fa-0ea384c1910e",
+        "position": {
+          "x": "1619.0",
+          "y": "418.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "space"
+        ],
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "ChatDialogCondition",
+      "base": {
+        "id": "5f242c76-5020-45d1-bc5a-bc0e2d122fc6",
+        "position": {
+          "x": "1515.0",
+          "y": "806.0"
+        },
+        "flowTasks": {
+          "success": "cb1e407a-45a7-4bc3-a904-783f8d05c998",
+          "failure": "29cc9de9-2b93-4e40-85c2-bae44f41856f"
+        },
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Yes"
+        ],
+        "ItemRegex": false
+      }
+    },
+    {
+      "name": "ChatDialogAction",
+      "base": {
+        "id": "cb1e407a-45a7-4bc3-a904-783f8d05c998",
+        "position": {
+          "x": "1996.0",
+          "y": "632.0"
+        },
+        "flowTasks": {},
+        "delayMultiplier": 1.0
+      },
+      "variables": {
+        "Values": [
+          "Yes"
+        ],
+        "ItemRegex": false
+      }
+    }
+  ],
+  "BotCategory": "OTHER",
+  "inventoryData": {},
+  "internalData": {
+    "Mouse multiplier": 1.0,
+    "Mouse path": "MLP_PATH_GENERATOR",
+    "Disable advanced": false
+  }
+}
